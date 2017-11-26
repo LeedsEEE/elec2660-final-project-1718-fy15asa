@@ -16,6 +16,8 @@
 		962A80771FC5FDF500FE7E8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 962A80761FC5FDF500FE7E8F /* main.m */; };
 		962A80811FC5FDF600FE7E8F /* Vacation_SitesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 962A80801FC5FDF600FE7E8F /* Vacation_SitesTests.m */; };
 		962A808C1FC5FDF600FE7E8F /* Vacation_SitesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 962A808B1FC5FDF600FE7E8F /* Vacation_SitesUITests.m */; };
+		962A809E1FC9D13100FE7E8F /* AdventureTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 962A809D1FC9D13100FE7E8F /* AdventureTable.m */; };
+		962A80A11FC9DC8A00FE7E8F /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = 962A80A01FC9DC8A00FE7E8F /* Data.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		962A80871FC5FDF600FE7E8F /* Vacation SitesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vacation SitesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		962A808B1FC5FDF600FE7E8F /* Vacation_SitesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vacation_SitesUITests.m; sourceTree = "<group>"; };
 		962A808D1FC5FDF600FE7E8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		962A809C1FC9D13100FE7E8F /* AdventureTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdventureTable.h; sourceTree = "<group>"; };
+		962A809D1FC9D13100FE7E8F /* AdventureTable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdventureTable.m; sourceTree = "<group>"; };
+		962A809F1FC9DC8A00FE7E8F /* Data.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
+		962A80A01FC9DC8A00FE7E8F /* Data.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Data.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,10 @@
 		962A80631FC5FDF500FE7E8F /* Vacation Sites */ = {
 			isa = PBXGroup;
 			children = (
+				962A809C1FC9D13100FE7E8F /* AdventureTable.h */,
+				962A809D1FC9D13100FE7E8F /* AdventureTable.m */,
+				962A809F1FC9DC8A00FE7E8F /* Data.h */,
+				962A80A01FC9DC8A00FE7E8F /* Data.m */,
 				962A80641FC5FDF500FE7E8F /* AppDelegate.h */,
 				962A80651FC5FDF500FE7E8F /* AppDelegate.m */,
 				962A80671FC5FDF500FE7E8F /* FirstViewController.h */,
@@ -270,8 +280,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				962A80A11FC9DC8A00FE7E8F /* Data.m in Sources */,
 				962A806C1FC5FDF500FE7E8F /* SecondViewController.m in Sources */,
 				962A80661FC5FDF500FE7E8F /* AppDelegate.m in Sources */,
+				962A809E1FC9D13100FE7E8F /* AdventureTable.m in Sources */,
 				962A80771FC5FDF500FE7E8F /* main.m in Sources */,
 				962A80691FC5FDF500FE7E8F /* FirstViewController.m in Sources */,
 			);

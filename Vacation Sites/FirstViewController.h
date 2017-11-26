@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface FirstViewController : UIViewController
 
+- (IBAction)Adventure:(UIButton *)sender;
 
 
 @end

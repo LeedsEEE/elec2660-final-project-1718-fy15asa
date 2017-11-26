@@ -27,6 +27,8 @@
 }
 
 
-- (IBAction)BeachesandSun:(UIButton *)sender {
+
+- (IBAction)Adventure:(UIButton *)sender {
+
 }
 @end
