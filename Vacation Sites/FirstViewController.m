@@ -28,7 +28,5 @@
 
 
 
-- (IBAction)Adventure:(UIButton *)sender {
 
-}
 @end

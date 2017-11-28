@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface AdventureTable : UITableViewController
-- (IBAction)Adventure:(UIButton *)sender;
+
 @property (strong, nonatomic) IBOutlet UITableView *Adventure;
 
 @end

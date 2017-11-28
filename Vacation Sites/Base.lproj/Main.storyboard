@@ -24,7 +24,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L2I-Pa-nNm">
-                                <rect key="frame" x="28.5" y="40" width="319.5" height="20"/>
+                                <rect key="frame" x="28.5" y="84" width="319.5" height="25"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Vacation Sites For you">
                                         <attributes>
@@ -236,6 +236,6 @@ and sun</string>
         <image name="second" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="AoX-0S-nLL"/>
+        <segue reference="01A-B9-2Kd"/>
     </inferredMetricsTieBreakers>
 </document>

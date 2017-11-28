@@ -50,8 +50,8 @@
     return cell;
 }
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{
-    return @"asia";
-   /* if(section==0){
+    
+    if(section==0){
         
         return@"Asia";
     }
@@ -70,10 +70,11 @@
    else if (section==5) {
         return @"South Pacific";
     }
-   else if (section==5) {
+   else  {
         return @"United States and Canada";
     }
-    */
+    
+    
 }
 
 
@@ -121,8 +122,5 @@
 }
 */
 
-- (IBAction)Adventure:(UIButton *)sender {
-    
-        
-}
+
 @end

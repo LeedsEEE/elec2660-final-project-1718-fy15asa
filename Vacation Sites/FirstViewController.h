@@ -11,7 +11,7 @@
 
 @interface FirstViewController : UIViewController
 
-- (IBAction)Adventure:(UIButton *)sender;
+
 
 
 @end
