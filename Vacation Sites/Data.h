@@ -11,10 +11,10 @@
 @interface Data : NSObject
 
 
-@property (nonatomic,strong) NSString *Place;
+@property (nonatomic,strong) NSString *Name;
 @property (nonatomic,strong) NSString *Description;
 @property (nonatomic,strong) NSString *Location;
-@property (nonatomic,strong) NSString *climate;
+@property (nonatomic,strong) NSString *header;
 
 
 
