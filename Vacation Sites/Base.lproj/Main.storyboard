@@ -57,7 +57,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <segue destination="a8m-DY-sHm" kind="show" id="BM1-lG-Qdc"/>
+                                    <segue destination="a8m-DY-sHm" kind="show" id="VKS-Jb-Vnd"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N0a-K8-4q3">
@@ -125,24 +125,50 @@ and sun</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="-626"/>
+            <point key="canvasLocation" x="749.60000000000002" y="-626.53673163418296"/>
         </scene>
         <!--Adventure Table-->
         <scene sceneID="Gj9-w5-VY7">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L8D-BM-Lhh" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController id="a8m-DY-sHm" customClass="AdventureTable" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="AdE-cP-GmB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="AdventureCell" id="cZ6-QS-qSG">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Adv" textLabel="zPL-G9-Vau" detailTextLabel="5QM-xf-FJ7" style="IBUITableViewCellStyleValue2" id="cZ6-QS-qSG">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cZ6-QS-qSG" id="l35-ui-Icy">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zPL-G9-Vau">
+                                            <rect key="frame" x="16" y="13" width="91" height="19"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <attributedString key="attributedText">
+                                                <fragment content="Title">
+                                                    <attributes>
+                                                        <font key="NSFont" size="15" name="Chalkduster"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Detail" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5QM-xf-FJ7">
+                                            <rect key="frame" x="113" y="18" width="28" height="12"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="kXa-32-YFX" kind="show" id="FkR-UW-ADr"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -150,13 +176,24 @@ and sun</string>
                             <outlet property="delegate" destination="a8m-DY-sHm" id="2ky-tt-5z6"/>
                         </connections>
                     </tableView>
-                    <connections>
-                        <outlet property="Adventure" destination="AdE-cP-GmB" id="2MN-X8-o0g"/>
-                    </connections>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="L8D-BM-Lhh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2281" y="-627"/>
+            <point key="canvasLocation" x="1855" y="-627"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ypP-SB-wSz">
+            <objects>
+                <viewController id="kXa-32-YFX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Egq-LC-elk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="YGY-KK-IZE"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lPW-Jc-9Pb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2764" y="-627"/>
         </scene>
         <!--Item-->
         <scene sceneID="m0n-9Y-lkB">
@@ -168,7 +205,7 @@ and sun</string>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="rootViewController" id="01A-B9-2Kd"/>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="rootViewController" id="ZAf-FV-B2I"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DHu-Qr-i6F" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -236,6 +273,6 @@ and sun</string>
         <image name="second" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="01A-B9-2Kd"/>
+        <segue reference="ZAf-FV-B2I"/>
     </inferredMetricsTieBreakers>
 </document>

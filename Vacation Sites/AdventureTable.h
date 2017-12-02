@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DataModel.h"
 
 @interface AdventureTable : UITableViewController
 
-@property (strong, nonatomic) IBOutlet UITableView *Adventure;
+
+
+@property (strong,nonatomic) DataModel *info;
 
 @end

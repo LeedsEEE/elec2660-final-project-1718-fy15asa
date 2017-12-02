@@ -17,11 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+   self.info = [[DataModel alloc]init];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -37,16 +33,58 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-
-    return 3;
+   // NSInteger Numberofrows;
+  //  Numberofrows = self.info.adventure.count;
+    return 2;
 }
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"AdventureCell" forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Adv" forIndexPath:indexPath];
     
     
+    if (indexPath.section==0){
+    Data *tempadv = [self.info.Asiaadventure objectAtIndex:indexPath.row];
+    cell.textLabel.text = tempadv.Name;
+    cell.detailTextLabel.text = tempadv.Location;
     
+    }
+    else if (indexPath.section==1){
+        Data *tempadv = [self.info.afradventure objectAtIndex:indexPath.row];
+        cell.textLabel.text = tempadv.Name;
+        cell.detailTextLabel.text = tempadv.Location;
+        
+    }
+    else if (indexPath.section==2){
+        Data *tempadv = [self.info.Caradventure objectAtIndex:indexPath.row];
+        cell.textLabel.text = tempadv.Name;
+        cell.detailTextLabel.text = tempadv.Location;
+        
+    }
+    else if (indexPath.section==3){
+        Data *tempadv = [self.info.euroadventure objectAtIndex:indexPath.row];
+        cell.textLabel.text = tempadv.Name;
+        cell.detailTextLabel.text = tempadv.Location;
+        
+    }
+    else if (indexPath.section==4){
+        Data *tempadv = [self.info.mexadventure objectAtIndex:indexPath.row];
+        cell.textLabel.text = tempadv.Name;
+        cell.detailTextLabel.text = tempadv.Location;
+        
+    }
+    else if (indexPath.section==5){
+        Data *tempadv = [self.info.spadventure objectAtIndex:indexPath.row];
+        cell.textLabel.text = tempadv.Name;
+        cell.detailTextLabel.text = tempadv.Location;
+        
+    }
+    else if (indexPath.section==6){
+        Data *tempadv = [self.info.USadventure objectAtIndex:indexPath.row];
+        cell.textLabel.text = tempadv.Name;
+        cell.detailTextLabel.text = tempadv.Location;
+        
+    }
     return cell;
 }
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{
@@ -73,6 +111,7 @@
    else  {
         return @"United States and Canada";
     }
+    
     
     
 }
@@ -121,6 +160,7 @@
     // Pass the selected object to the new view controller.
 }
 */
+
 
 
 @end
