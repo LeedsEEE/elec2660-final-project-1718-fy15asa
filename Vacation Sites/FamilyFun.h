@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "DataModel.h"
+#import "FamilyView.h"
 @interface FamilyFun : UITableViewController
 
 @property (strong,nonatomic) DataModel *info;

@@ -23,6 +23,15 @@
 		962A80AD1FD460D200FE7E8F /* Relaxation.m in Sources */ = {isa = PBXBuildFile; fileRef = 962A80AC1FD460D200FE7E8F /* Relaxation.m */; };
 		962A80B01FD46FAF00FE7E8F /* Beaches.m in Sources */ = {isa = PBXBuildFile; fileRef = 962A80AF1FD46FAF00FE7E8F /* Beaches.m */; };
 		962A80BA1FD487CE00FE7E8F /* AdventureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 962A80B91FD487CE00FE7E8F /* AdventureView.m */; };
+		962A80BF1FD49CD500FE7E8F /* FamilyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 962A80BE1FD49CD500FE7E8F /* FamilyView.m */; };
+		962A80D91FD4A26A00FE7E8F /* playa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 962A80D11FD4A26900FE7E8F /* playa.jpg */; };
+		962A80DA1FD4A26A00FE7E8F /* cancun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 962A80D21FD4A26900FE7E8F /* cancun.jpg */; };
+		962A80DB1FD4A26A00FE7E8F /* Dominican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 962A80D31FD4A26900FE7E8F /* Dominican.jpg */; };
+		962A80DC1FD4A26A00FE7E8F /* Aruba.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 962A80D41FD4A26900FE7E8F /* Aruba.jpg */; };
+		962A80DD1FD4A26A00FE7E8F /* Orlando.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 962A80D51FD4A26900FE7E8F /* Orlando.jpg */; };
+		962A80DE1FD4A26A00FE7E8F /* Dublin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 962A80D61FD4A26900FE7E8F /* Dublin.jpg */; };
+		962A80DF1FD4A26A00FE7E8F /* Anaheim.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 962A80D71FD4A26A00FE7E8F /* Anaheim.jpg */; };
+		962A80E01FD4A26A00FE7E8F /* Barcelona.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 962A80D81FD4A26A00FE7E8F /* Barcelona.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +84,16 @@
 		962A80AF1FD46FAF00FE7E8F /* Beaches.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Beaches.m; sourceTree = "<group>"; };
 		962A80B81FD487CE00FE7E8F /* AdventureView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdventureView.h; sourceTree = "<group>"; };
 		962A80B91FD487CE00FE7E8F /* AdventureView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdventureView.m; sourceTree = "<group>"; };
+		962A80BD1FD49CD500FE7E8F /* FamilyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FamilyView.h; sourceTree = "<group>"; };
+		962A80BE1FD49CD500FE7E8F /* FamilyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FamilyView.m; sourceTree = "<group>"; };
+		962A80D11FD4A26900FE7E8F /* playa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = playa.jpg; path = "../../../untitled folder/FamilyFun/playa.jpg"; sourceTree = "<group>"; };
+		962A80D21FD4A26900FE7E8F /* cancun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cancun.jpg; path = "../../../untitled folder/FamilyFun/cancun.jpg"; sourceTree = "<group>"; };
+		962A80D31FD4A26900FE7E8F /* Dominican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Dominican.jpg; path = "../../../untitled folder/FamilyFun/Dominican.jpg"; sourceTree = "<group>"; };
+		962A80D41FD4A26900FE7E8F /* Aruba.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Aruba.jpg; path = "../../../untitled folder/FamilyFun/Aruba.jpg"; sourceTree = "<group>"; };
+		962A80D51FD4A26900FE7E8F /* Orlando.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Orlando.jpg; path = "../../../untitled folder/FamilyFun/Orlando.jpg"; sourceTree = "<group>"; };
+		962A80D61FD4A26900FE7E8F /* Dublin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Dublin.jpg; path = "../../../untitled folder/FamilyFun/Dublin.jpg"; sourceTree = "<group>"; };
+		962A80D71FD4A26A00FE7E8F /* Anaheim.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Anaheim.jpg; path = "../../../untitled folder/FamilyFun/Anaheim.jpg"; sourceTree = "<group>"; };
+		962A80D81FD4A26A00FE7E8F /* Barcelona.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Barcelona.jpg; path = "../../../untitled folder/FamilyFun/Barcelona.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +159,8 @@
 				962A806A1FC5FDF500FE7E8F /* SecondViewController.h */,
 				962A806B1FC5FDF500FE7E8F /* SecondViewController.m */,
 				962A806D1FC5FDF500FE7E8F /* Main.storyboard */,
+				962A80BD1FD49CD500FE7E8F /* FamilyView.h */,
+				962A80BE1FD49CD500FE7E8F /* FamilyView.m */,
 				962A80B81FD487CE00FE7E8F /* AdventureView.h */,
 				962A80B91FD487CE00FE7E8F /* AdventureView.m */,
 				962A80AB1FD460D200FE7E8F /* Relaxation.h */,
@@ -150,6 +171,7 @@
 				962A80721FC5FDF500FE7E8F /* LaunchScreen.storyboard */,
 				962A80751FC5FDF500FE7E8F /* Info.plist */,
 				962A80761FC5FDF500FE7E8F /* main.m */,
+				962A80C01FD4A20000FE7E8F /* Supporting files */,
 			);
 			path = "Vacation Sites";
 			sourceTree = "<group>";
@@ -170,6 +192,21 @@
 				962A808D1FC5FDF600FE7E8F /* Info.plist */,
 			);
 			path = "Vacation SitesUITests";
+			sourceTree = "<group>";
+		};
+		962A80C01FD4A20000FE7E8F /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				962A80D71FD4A26A00FE7E8F /* Anaheim.jpg */,
+				962A80D41FD4A26900FE7E8F /* Aruba.jpg */,
+				962A80D81FD4A26A00FE7E8F /* Barcelona.jpg */,
+				962A80D21FD4A26900FE7E8F /* cancun.jpg */,
+				962A80D31FD4A26900FE7E8F /* Dominican.jpg */,
+				962A80D61FD4A26900FE7E8F /* Dublin.jpg */,
+				962A80D51FD4A26900FE7E8F /* Orlando.jpg */,
+				962A80D11FD4A26900FE7E8F /* playa.jpg */,
+			);
+			path = "Supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,8 +316,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				962A80741FC5FDF500FE7E8F /* LaunchScreen.storyboard in Resources */,
+				962A80DD1FD4A26A00FE7E8F /* Orlando.jpg in Resources */,
 				962A80711FC5FDF500FE7E8F /* Assets.xcassets in Resources */,
+				962A80DE1FD4A26A00FE7E8F /* Dublin.jpg in Resources */,
+				962A80E01FD4A26A00FE7E8F /* Barcelona.jpg in Resources */,
+				962A80DB1FD4A26A00FE7E8F /* Dominican.jpg in Resources */,
 				962A806F1FC5FDF500FE7E8F /* Main.storyboard in Resources */,
+				962A80DA1FD4A26A00FE7E8F /* cancun.jpg in Resources */,
+				962A80D91FD4A26A00FE7E8F /* playa.jpg in Resources */,
+				962A80DC1FD4A26A00FE7E8F /* Aruba.jpg in Resources */,
+				962A80DF1FD4A26A00FE7E8F /* Anaheim.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +358,7 @@
 				962A80AD1FD460D200FE7E8F /* Relaxation.m in Sources */,
 				962A80661FC5FDF500FE7E8F /* AppDelegate.m in Sources */,
 				962A809E1FC9D13100FE7E8F /* AdventureTable.m in Sources */,
+				962A80BF1FD49CD500FE7E8F /* FamilyView.m in Sources */,
 				962A80A41FCAF23D00FE7E8F /* DataModel.m in Sources */,
 				962A80771FC5FDF500FE7E8F /* main.m in Sources */,
 				962A80691FC5FDF500FE7E8F /* FirstViewController.m in Sources */,

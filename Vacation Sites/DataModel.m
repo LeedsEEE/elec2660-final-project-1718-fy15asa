@@ -131,7 +131,7 @@
         Anaheim.Name = @"Anaheim";
         Anaheim.Location = @"California, United States, North America";
         Anaheim.Description = @"Anaheim is ideally situated to take advantage of all Orange County's adventures, whether you plan on delving into the delights of Disneyland or basking on the bountiful beaches. Biplanes and hot-air balloons soar over O.C.'s aquariums, museums and restaurants. A visit to Nixon's Birthplace adds another element to family vacations.";
-        Anaheim.header = @"United States & Canada";
+        Anaheim.header = @"Anaheim.jpg";
         
         
         self.USfamilyfun = [NSMutableArray array];
@@ -139,14 +139,14 @@
         Orlando.Name = @"Orlando";
         Orlando.Location = @"Florida, United States, North America";
         Orlando.Description = @"Orlando offers opportunities to ricochet through a thrilling itinerary of roller coasters, resorts, dinosaurs and Disney amusements. Fantastic family fun plus shows and rides galore come courtesy of Walt Disney World, SeaWorld Orlando and Universal's Islands of Adventure and Universal Studios.";
-        Orlando.header = @"United States & Canada";
+        Orlando.header = @"Orlando.jpg";
         
         self.mexfamilyfun = [NSMutableArray array];
         Data *Playa = [[Data alloc]init];
         Playa.Name = @"Playa del Carmen";
         Playa.Location=@"Yucatan Peninsula, Mexico, North America";
         Playa.Description=@"Playa del Carmen, on the Mexican Caribbean, is home to sandy beaches, Mayan archaeological sites and child-centered theme parks. Kids and adults enjoy clambering through Discovery Jungle Park's authentic rope bridges and exploring Xcaret's underground rivers, butterfly pavilion and aquarium.";
-        Playa.header = @"Mexico, Central & South America";
+        Playa.header = @"playa.jpg";
         
         
         self.mexfamilyfun = [NSMutableArray array];
@@ -154,7 +154,7 @@
         Cancun.Name= @"Cancun";
         Cancun.Location = @"Yucatan Peninsula, Mexico, North America";
         Cancun.Description = @"Cancun is one of Mexico's most famous destinations, and despite its reputation as a spring-break paradise, families will find plenty to do here, too. Explore ancient Mayan ruins, the Xel-Ha waterpark and the thrilling Interactive Aquarium, or just enjoy beautiful beaches.";
-        Cancun.header = @"Mexico, Central & South America";
+        Cancun.header = @"cancun.jpg";
         
         
         self.eurofamilyfun = [NSMutableArray array];
@@ -162,21 +162,21 @@
         Dublin.Name = @"Dublin";
         Dublin.Location = @"County Dublin, Ireland, Europe";
         Dublin.Description = @"Friendly, frenetic Dublin is a perfect destination for the family. Ride the Viking Splash Tour, visit Dublin Zoo, feed ducks in Stephen's Green, picnic in Phoenix Park and visit the Ark, a children's cultural center in Temple Bar. After tiring the kids out, relax with a well-earned Guinness in the evening.";
-        Dublin.header = @"Europe";
+        Dublin.header = @"Dublin.jpg";
         
         self.eurofamilyfun = [NSMutableArray array];
         Data *Barcelona = [[Data alloc]init];
         Barcelona.Name = @"Barcelona";
         Barcelona.Location = @"Catalonia, Spain, Europe";
         Barcelona.Description = @"The winning combination of culture, coastline and a great climate make Barcelona a top choice for the whole family. Gaudi's astounding architectural creations amaze. Some appealing beaches provide daytime diversions. Sights such as the aquarium and Las Ramblas provide yet more entertainment";
-        Barcelona.header = @"Europe";
+        Barcelona.header = @"Barcelona.jpg";
         
         self.Carfamilyfun = [NSMutableArray array];
         Data *Aruba = [[Data alloc]init];
         Aruba.Name = @"Aruba";
         Aruba.Location = @"Caribbean, North America";
         Aruba.Description = @"Clear waters and great weather are merely two of Aruba's draws. A smorgasbord of activities, from snorkeling to banana boating, entertains families above and below the waves, while jeep safari and quadracer tours are offered inland. A glimpse of the island's personality and past can be viewed at the Aruba Panorama.";
-        Aruba.header = @"Caribbean";
+        Aruba.header = @"Aruba.jpg";
         
         
         self.Carfamilyfun = [NSMutableArray array];
@@ -184,7 +184,7 @@
         Dominican.Name = @"Dominican Republic";
         Dominican.Location = @"Caribbean, North America";
         Dominican.Description = @"Experience the Caribbean and get back to nature in the Dominican Republic. Families can swim with sea lions, dolphins--or sharks for the truly adventurous--at Ocean World, or go into the tropical island jungle on a Jeep safari.";
-        Dominican.header = @"Caribbean";
+        Dominican.header = @"Dominican.jpg";
         //Family objects end.
         
         //Relaxation objects start

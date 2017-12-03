@@ -125,15 +125,36 @@
  }
  */
 
-/*
+
  #pragma mark - Navigation
  
  // In a storyboard-based application, you will often want to do a little preparation before navigation
  - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
- // Get the new view controller using [segue destinationViewController].
- // Pass the selected object to the new view controller.
+ 
+ 
+ 
+ if ([[segue identifier] isEqualToString:@"Family"]){
+ 
+ FamilyView *destinationViewController = [segue destinationViewController];
+ NSIndexPath *indexpath = [self.tableView indexPathForSelectedRow];
+ if(indexpath.section == 0){
+ Data *tempadv = [self.info.Carfamilyfun objectAtIndex:indexpath.row];
+ destinationViewController.data =tempadv;
  }
- */
+ else if (indexpath.section == 1){
+ Data *tempadv = [self.info.eurofamilyfun objectAtIndex:indexpath.row];
+ destinationViewController.data =tempadv;
+ }
+ else if (indexpath.section == 2){
+ Data *tempadv = [self.info.mexfamilyfun objectAtIndex:indexpath.row];
+ destinationViewController.data =tempadv;
+ }
+ else if (indexpath.section == 3){
+ Data *tempadv = [self.info.USfamilyfun objectAtIndex:indexpath.row];
+ destinationViewController.data =tempadv;
+        }
+    }
+ }
 
 
 
