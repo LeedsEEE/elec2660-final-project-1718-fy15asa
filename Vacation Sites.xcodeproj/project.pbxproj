@@ -19,6 +19,7 @@
 		962A809E1FC9D13100FE7E8F /* AdventureTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 962A809D1FC9D13100FE7E8F /* AdventureTable.m */; };
 		962A80A11FC9DC8A00FE7E8F /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = 962A80A01FC9DC8A00FE7E8F /* Data.m */; };
 		962A80A41FCAF23D00FE7E8F /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 962A80A31FCAF23D00FE7E8F /* DataModel.m */; };
+		962A80AA1FD32EFA00FE7E8F /* FamilyFun.m in Sources */ = {isa = PBXBuildFile; fileRef = 962A80A91FD32EFA00FE7E8F /* FamilyFun.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		962A80A01FC9DC8A00FE7E8F /* Data.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Data.m; sourceTree = "<group>"; };
 		962A80A21FCAF23D00FE7E8F /* DataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
 		962A80A31FCAF23D00FE7E8F /* DataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
+		962A80A81FD32EFA00FE7E8F /* FamilyFun.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FamilyFun.h; sourceTree = "<group>"; };
+		962A80A91FD32EFA00FE7E8F /* FamilyFun.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FamilyFun.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +129,8 @@
 				962A806A1FC5FDF500FE7E8F /* SecondViewController.h */,
 				962A806B1FC5FDF500FE7E8F /* SecondViewController.m */,
 				962A806D1FC5FDF500FE7E8F /* Main.storyboard */,
+				962A80A81FD32EFA00FE7E8F /* FamilyFun.h */,
+				962A80A91FD32EFA00FE7E8F /* FamilyFun.m */,
 				962A80701FC5FDF500FE7E8F /* Assets.xcassets */,
 				962A80721FC5FDF500FE7E8F /* LaunchScreen.storyboard */,
 				962A80751FC5FDF500FE7E8F /* Info.plist */,
@@ -286,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				962A80A11FC9DC8A00FE7E8F /* Data.m in Sources */,
+				962A80AA1FD32EFA00FE7E8F /* FamilyFun.m in Sources */,
 				962A806C1FC5FDF500FE7E8F /* SecondViewController.m in Sources */,
 				962A80661FC5FDF500FE7E8F /* AppDelegate.m in Sources */,
 				962A809E1FC9D13100FE7E8F /* AdventureTable.m in Sources */,
