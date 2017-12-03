@@ -18,7 +18,7 @@
         //All data were taken from Trip Advisor website.
         //Adventure Objects Start.
         
-#pragma mark Adventure Objects
+        #pragma mark Adventure Objects
         self.Caradventure = [NSMutableArray array];
         Data *sanjuan = [[Data alloc]init];
         sanjuan.Name = @"San Juan";
@@ -125,7 +125,7 @@
         
         
        //Family Objects start
-#pragma mark Family Objects
+        #pragma mark Family Objects
         self.USfamilyfun = [NSMutableArray array];
         Data *Anaheim = [[Data alloc]init];
         Anaheim.Name = @"Anaheim";
@@ -285,7 +285,109 @@
         Scottsdale.header = @"United States & Canada";
         // End of Relaxation and Rejuvenation
         
+        //Start of Beaches & Sun Objects
+        #pragma mark Beaches Objects
+        self.afrbeaches = [NSMutableArray array];
+        Data *Camps = [[Data alloc]init];
+        Camps.Name = @"Camps Bay";
+        Camps.Location=@"Western Cape, South Africa, Africa";
+        Camps.Description=@"Shaded spots go early at Cape Town's crowded Camps Bay, where locals picnic and play in the strong Atlantic waves. Look for the flagged bathing areas for safer swims for all the family. Festive cafes sit adjacent to the sands, which are dramatically set at the foot of the Twelve Apostles mountains.";
+        Camps.header = @"Africa & the Middle East";
         
+        self.afrbeaches = [NSMutableArray array];
+        Data *Seychelles = [[Data alloc]init];
+        Seychelles.Name = @" Seychelles";
+        Seychelles.Location = @"Africa";
+        Seychelles.Description =@"This Indian Ocean group of 100+ islands is home to some of the world's most beautiful beaches, including the popular white powder of Beau Vallon on Mahe and Anse Lazio on Praslin. The stunning pink sands and boulders of Anse Source d'Argent on La Digue lead many to call it the most gorgeous beach on earth.";
+        Seychelles.header = @"Africa & the Middle East";
+        
+        
+        self.Asibeaches = [NSMutableArray array];
+        Data *Maldives = [[Data alloc]init];
+        Maldives.Name = @"Maldives";
+        Maldives.Location = @"Asia";
+        Maldives.Description=@"More than two dozens Indian Ocean atolls and thousands of islets comprise the Maldives. Idyllic beaches, such as South Ari Atoll on Nalaguraidhoo, the Sun Island, are a dream come true for sand lovers. Swim out to the barrier reef - or from some parts of the island, admire the reef right from the gorgeous white beach.";
+        Maldives.header = @"Asia";
+        
+        self.Asibeaches = [NSMutableArray array];
+        Data *Ko = [[Data alloc]init];
+        Ko.Name = @"Ko Samui";
+        Ko.Location = @" Surat Thani Province, Thailand, Asia";
+        Ko.Description = @"Koh Samui's myriad beaches present everything you could ever dream of in a tropical beach. Picture-perfect sands, coconut trees and palm fronds adorn each one, but there the similarities end. Choose from busy beaches, teeming with vendors and cafes, or secluded strips with not another person in sight.";
+        Ko.header = @"Asia";
+        
+        
+        self.Carbeaches = [NSMutableArray array];
+        Data *Virgin = [[Data alloc]init];
+        Virgin.Name = @"U.S. Virgin Islands";
+        Virgin.Location = @"Caribbean, North America";
+        Virgin.Description = @"Swaths of powdery sand separate green hills from the crystal-clear Caribbean waters surrounding the U.S. Virgin Islands. Beach aficionados should beeline for idyllic St. John, home of windsurfer-friendly Cinnamon Bay, the beachside cafes of Cruz Bay, and less-frequented Francis Bay beach.";
+        Virgin.header = @"Caribbean";
+        
+        
+        self.Carbeaches = [NSMutableArray array];
+        Data *stmartin = [[Data alloc]init];
+        stmartin.Name = @"St Martin";
+        stmartin.Location = @" Caribbean, North America";
+        stmartin.Description = @"There is no shortage of beautiful shoreline on St. Martin, which boasts some 37 beaches. What sets these apart from other Caribbean beaches is their breathtaking environs--visitors will not only be stunned by the white sand and gorgeous water but also by caves, cliffs, palm trees and rock formations.";
+        stmartin.header =@"Caribbean";
+        
+        self.eurobeaches = [NSMutableArray array];
+        Data *Santorini = [[Data alloc]init];
+        Santorini.Name = @"Santorini";
+        Santorini.Location = @"Cyclades, South Aegean, Greece, Europe";
+        Santorini.Description =@"While most of the beaches on these geologically new Greek islands are black due to their volcanic creation, Santorini's most famous is probably Red Beach near Akrotiri. Perissa Beach on the main island’s west and Kamari Beach on the east are both long, black, spectacular and very popular with tourists.";
+        Santorini.header=@"Europe";
+        
+        self.eurobeaches = [NSMutableArray array];
+        Data *Tenerife = [[Data alloc]init];
+        Tenerife.Name=@"Tenerife";
+        Tenerife.Location=@"Canary Islands, Spain, Europe";
+        Tenerife.Description = @"Part of the Canary Islands, Tenerife is largely a resort island with brilliant man-made beaches of fine black shingle or golden sand. With calm, clear waters and an almost constant wind, Tenerife in a windsurfer's dream. You can also sunbathe, swim, snorkel and scuba dive along the beautiful coastline.";
+        Tenerife.header = @"Europe";
+        
+        self.mexbeaches = [NSMutableArray array];
+        Data *Cabo = [[Data alloc]init];
+        Cabo.Name = @"Cabo San Lucas";
+        Cabo.Location = @"Los Cabos, Baja California, Mexico, North America";
+        Cabo.Description= @"Cabo's beaches are not just beautiful, they're also incredibly diverse. On the Pacific Ocean, the waves are delightful to watch, but often too dangerous for swimming. On the Sea of Cortez, the waters are sheltered and calm and the sand is white and warm.";
+        Cabo.header=@"Mexico, Central & South America";
+        
+        self.mexbeaches = [NSMutableArray array];
+        Data *Cozumel = [[Data alloc]init];
+        Cozumel.Name = @"Cozumel";
+        Cozumel.Location = @"Yucatan Peninsula, Mexico, North America";
+        Cozumel.Description = @"Going to the seashore at Cozumel is fascinating because of the island's diverse beach offerings. Although it has its fair share of typically beautiful white-sand beaches, it also boasts a number of rocky beaches that are not great for sunbathing or swimming but are ideal for snorkeling.";
+        Cozumel.header = @"Mexico, Central & South America";
+        
+        self.spbeaches = [NSMutableArray array];
+        Data *Sydney = [[Data alloc]init];
+        Sydney.Name = @"Sydney";
+        Sydney.Location = @"New South Wales, Australia, South Pacific";
+        Sydney.Description = @"With dozens of stunning ocean beaches within half an hour of downtown, there are few better urban beach destinations than Sydney. Famed Bondi Beach sees up to 40,000 on busy weekends. If quieter beaches appeal, take the coastal walk past smaller strands all the way to Coogee's calmer sands.";
+        Sydney.header = @"South Pacific";
+        
+        
+        self.spbeaches = [NSMutableArray array];
+        Data *Bora = [[Data alloc]init];
+        Bora.Name = @"Bora Bora";
+        Bora.Location = @"Society Islands, French Polynesia, South Pacific";
+        Bora.Description = @"Although a fairly small island, Bora Bora offers visitors a multitude of activities. Go on a 4x4 safari, sunbathe and swim on white sandy beaches, dive in a natural underwater park among fish and corals, experience thrilling shark feedings or circle the turquoise lagoon by boat.";
+        Bora.header = @"South Pacific";
+        
+        self.USbeaches = [NSMutableArray array];
+        Data *Miami = [[Data alloc]init];
+        Miami.Name=@"Miami Beach";
+        Miami.Location=@"Florida, United States, North America";
+        Miami.Description = @"At the shore in Miami Beach, visitors can swim, surf and jet ski in the warm and crystal-clear Atlantic waters. You can also nap on the white sands, work on a tan or simply watch the beautiful people, especially at South Beach, a favorite of models and celebrities.";
+        Miami.header= @"United States & Canada";
+        
+        self.USbeaches = [NSMutableArray array];
+        Data *Kauai = [[Data alloc]init];
+        Kauai.Name=@"Kauai";
+        Kauai.Location = @"Hawaii, United States, North America";
+        Kauai.Description = @"With about 50 miles of beaches, Kauai has plenty of shoreline to explore. Swimming is great just about anywhere, but most people prefer the beaches on the north and south coasts, where the white sands stretch on and on and surfers refine their craft.";
+        Kauai.header = @"United States & Canada";
         
         
         
@@ -324,6 +426,20 @@
         [self.sprelaxation addObject:Rotorua];
         [self.USrelaxation addObject:Hawaii];
         [self.USrelaxation addObject:Scottsdale];
+        [self.afrbeaches addObject:Camps];
+        [self.afrbeaches addObject:Seychelles];
+        [self.Asibeaches addObject:Maldives];
+        [self.Asibeaches addObject:Ko];
+        [self.Carbeaches addObject:Virgin];
+        [self.Carbeaches addObject:stmartin];
+        [self.eurobeaches addObject:Tenerife];
+        [self.eurobeaches addObject:Santorini];
+        [self.mexbeaches addObject:Cabo];
+        [self.mexbeaches addObject:Cozumel];
+        [self.spbeaches addObject:Sydney];
+        [self.spbeaches addObject:Bora];
+        [self.USbeaches addObject:Miami];
+        [self.USbeaches addObject:Kauai];
       //Adventure End Total 14 objects.
         
         

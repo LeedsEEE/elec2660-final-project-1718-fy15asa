@@ -151,15 +151,52 @@
 }
 */
 
-/*
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+ 
+ 
+ 
+ if ([[segue identifier] isEqualToString:@"Adventure"]){
+     
+     AdventureView *destinationViewController = [segue destinationViewController];
+     NSIndexPath *indexpath = [self.tableView indexPathForSelectedRow];
+     if(indexpath.section == 0){
+         Data *tempadv = [self.info.Asiaadventure objectAtIndex:indexpath.row];
+         destinationViewController.data =tempadv;
+     }
+     else if (indexpath.section == 1){
+         Data *tempadv = [self.info.afradventure objectAtIndex:indexpath.row];
+         destinationViewController.data =tempadv;
+     }
+     else if (indexpath.section == 2){
+         Data *tempadv = [self.info.Caradventure objectAtIndex:indexpath.row];
+         destinationViewController.data =tempadv;
+     }
+     else if (indexpath.section == 3){
+         Data *tempadv = [self.info.euroadventure objectAtIndex:indexpath.row];
+         destinationViewController.data =tempadv;
+     }
+     else if (indexpath.section == 4){
+         Data *tempadv = [self.info.mexadventure objectAtIndex:indexpath.row];
+         destinationViewController.data =tempadv;
+     }
+     else if (indexpath.section == 5){
+         Data *tempadv = [self.info.spadventure objectAtIndex:indexpath.row];
+         destinationViewController.data =tempadv;
+     }
+     else if (indexpath.section == 6){
+         Data *tempadv = [self.info.USadventure objectAtIndex:indexpath.row];
+         destinationViewController.data =tempadv;
+     }
+ 
+ }
+ 
+ 
+ }
+
 
 
 
