@@ -16,7 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.relax.titleLabel.numberOfLines = 3;
+    self.beach.titleLabel.numberOfLines = 3;
+    self.family.titleLabel.numberOfLines = 2;
     // Do any additional setup after loading the view, typically from a nib.
 }
 

@@ -1,18 +1,18 @@
 //
-//  Beaches.m
+//  Relaxation.m
 //  Vacation Sites
 //
 //  Created by Abdul on 03/12/2017.
 //  Copyright © 2017 University of Leeds. All rights reserved.
 //
 
-#import "Beaches.h"
+#import "Relaxation.h"
 
-@interface Beaches ()
+@interface Relaxation ()
 
 @end
 
-@implementation Beaches
+@implementation Relaxation
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -33,54 +33,59 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    // NSInteger Numberofrows;
-    //  Numberofrows = self.info.adventure.count;
-    return 2;
+    if (section == 2){
+        return 1;
+    }
+    else {
+        return 2;
+    }
+    
+  
 }
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Beaches" forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Relax" forIndexPath:indexPath];
     
     
     if (indexPath.section==0){
-        Data *tempadv = [self.info.Asibeaches objectAtIndex:indexPath.row];
+        Data *tempadv = [self.info.Asirelaxation objectAtIndex:indexPath.row];
         cell.textLabel.text = tempadv.Name;
         cell.detailTextLabel.text = tempadv.Location;
         
     }
     else if (indexPath.section==1){
-        Data *tempadv = [self.info.afrbeaches objectAtIndex:indexPath.row];
+        Data *tempadv = [self.info.afrrelaxation objectAtIndex:indexPath.row];
         cell.textLabel.text = tempadv.Name;
         cell.detailTextLabel.text = tempadv.Location;
         
     }
     else if (indexPath.section==2){
-        Data *tempadv = [self.info.Carbeaches objectAtIndex:indexPath.row];
+        Data *tempadv = [self.info.Carrelaxation objectAtIndex:indexPath.row];
         cell.textLabel.text = tempadv.Name;
         cell.detailTextLabel.text = tempadv.Location;
         
     }
     else if (indexPath.section==3){
-        Data *tempadv = [self.info.eurobeaches objectAtIndex:indexPath.row];
+        Data *tempadv = [self.info.eurorelaxation objectAtIndex:indexPath.row];
         cell.textLabel.text = tempadv.Name;
         cell.detailTextLabel.text = tempadv.Location;
         
     }
     else if (indexPath.section==4){
-        Data *tempadv = [self.info.mexbeaches objectAtIndex:indexPath.row];
+        Data *tempadv = [self.info.mexrelaxation objectAtIndex:indexPath.row];
         cell.textLabel.text = tempadv.Name;
         cell.detailTextLabel.text = tempadv.Location;
         
     }
     else if (indexPath.section==5){
-        Data *tempadv = [self.info.spbeaches objectAtIndex:indexPath.row];
+        Data *tempadv = [self.info.sprelaxation objectAtIndex:indexPath.row];
         cell.textLabel.text = tempadv.Name;
         cell.detailTextLabel.text = tempadv.Location;
         
     }
     else if (indexPath.section==6){
-        Data *tempadv = [self.info.USbeaches objectAtIndex:indexPath.row];
+        Data *tempadv = [self.info.USrelaxation objectAtIndex:indexPath.row];
         cell.textLabel.text = tempadv.Name;
         cell.detailTextLabel.text = tempadv.Location;
         
@@ -151,50 +156,17 @@
  }
  */
 
-
+/*
  #pragma mark - Navigation
  
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
  - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
- if ([[segue identifier] isEqualToString:@"Beach"]){
- 
- BeachView *destinationViewController = [segue destinationViewController];
- NSIndexPath *indexpath = [self.tableView indexPathForSelectedRow];
- if(indexpath.section == 0){
- Data *tempadv = [self.info.Asibeaches objectAtIndex:indexpath.row];
- destinationViewController.data =tempadv;
+ // Get the new view controller using [segue destinationViewController].
+ // Pass the selected object to the new view controller.
  }
- else if (indexpath.section == 1){
- Data *tempadv = [self.info.afrbeaches objectAtIndex:indexpath.row];
- destinationViewController.data =tempadv;
- }
- else if (indexpath.section == 2){
- Data *tempadv = [self.info.Carbeaches objectAtIndex:indexpath.row];
- destinationViewController.data =tempadv;
- }
- else if (indexpath.section == 3){
- Data *tempadv = [self.info.eurobeaches objectAtIndex:indexpath.row];
- destinationViewController.data =tempadv;
- }
- else if (indexpath.section == 4){
- Data *tempadv = [self.info.mexbeaches objectAtIndex:indexpath.row];
- destinationViewController.data =tempadv;
- }
- else if (indexpath.section == 5){
- Data *tempadv = [self.info.spbeaches objectAtIndex:indexpath.row];
- destinationViewController.data =tempadv;
- }
- else if (indexpath.section == 6){
- Data *tempadv = [self.info.USbeaches objectAtIndex:indexpath.row];
- destinationViewController.data =tempadv;
- }
- 
- }
- 
- 
- }
+ */
 
 
-- (IBAction)Relax:(UIButton *)sender {
-}
+
 @end
 

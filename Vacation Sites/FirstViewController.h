@@ -13,6 +13,9 @@
 
 
 
+@property (strong, nonatomic) IBOutlet UIButton *relax;
+@property (strong, nonatomic) IBOutlet UIButton *beach;
+@property (strong, nonatomic) IBOutlet UIButton *family;
 
 
 
