@@ -1,27 +1,24 @@
 //
-//  AdventureView.m
+//  BeachView.m
 //  Vacation Sites
 //
-//  Created by Abdul on 03/12/2017.
+//  Created by Abdul on 04/12/2017.
 //  Copyright © 2017 University of Leeds. All rights reserved.
 //
 
-#import "AdventureView.h"
+#import "BeachView.h"
 
-@interface AdventureView ()
+@interface BeachView ()
 
 @end
 
-@implementation AdventureView
+@implementation BeachView
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.Name.text = self.data.Name;
     self.Description.text = self.data.Description;
     self.Location.text = self.data.Location;
-    self.img.image = [UIImage imageNamed:[NSString stringWithFormat:@"%@",self.data.header]];
-    
-    
 }
 
 - (void)didReceiveMemoryWarning {

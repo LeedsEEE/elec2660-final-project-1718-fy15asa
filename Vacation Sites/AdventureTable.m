@@ -47,42 +47,54 @@
     Data *tempadv = [self.info.Asiaadventure objectAtIndex:indexPath.row];
     cell.textLabel.text = tempadv.Name;
     cell.detailTextLabel.text = tempadv.Location;
-    
+    cell.imageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"%@",tempadv.header]];
+        
+        
     }
     else if (indexPath.section==1){
         Data *tempadv = [self.info.afradventure objectAtIndex:indexPath.row];
         cell.textLabel.text = tempadv.Name;
         cell.detailTextLabel.text = tempadv.Location;
-        
+        UIImage *img = [UIImage imageNamed:[NSString stringWithFormat:@"%@",tempadv.header]];
+        cell.imageView.image = img;
     }
     else if (indexPath.section==2){
         Data *tempadv = [self.info.Caradventure objectAtIndex:indexPath.row];
         cell.textLabel.text = tempadv.Name;
         cell.detailTextLabel.text = tempadv.Location;
-        
+        UIImage *img = [UIImage imageNamed:[NSString stringWithFormat:@"%@",tempadv.header]];
+        cell.imageView.image = img;
     }
     else if (indexPath.section==3){
         Data *tempadv = [self.info.euroadventure objectAtIndex:indexPath.row];
         cell.textLabel.text = tempadv.Name;
         cell.detailTextLabel.text = tempadv.Location;
+        UIImage *img = [UIImage imageNamed:[NSString stringWithFormat:@"%@",tempadv.header]];
+        cell.imageView.image = img;
         
     }
     else if (indexPath.section==4){
         Data *tempadv = [self.info.mexadventure objectAtIndex:indexPath.row];
         cell.textLabel.text = tempadv.Name;
         cell.detailTextLabel.text = tempadv.Location;
+        UIImage *img = [UIImage imageNamed:[NSString stringWithFormat:@"%@",tempadv.header]];
+        cell.imageView.image = img;
         
     }
     else if (indexPath.section==5){
         Data *tempadv = [self.info.spadventure objectAtIndex:indexPath.row];
         cell.textLabel.text = tempadv.Name;
         cell.detailTextLabel.text = tempadv.Location;
+        UIImage *img = [UIImage imageNamed:[NSString stringWithFormat:@"%@",tempadv.header]];
+        cell.imageView.image = img;
         
     }
     else if (indexPath.section==6){
         Data *tempadv = [self.info.USadventure objectAtIndex:indexPath.row];
         cell.textLabel.text = tempadv.Name;
         cell.detailTextLabel.text = tempadv.Location;
+        UIImage *img = [UIImage imageNamed:[NSString stringWithFormat:@"%@",tempadv.header]];
+        cell.imageView.image = img;
         
     }
     return cell;

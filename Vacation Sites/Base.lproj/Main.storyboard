@@ -191,14 +191,13 @@ and sun</string>
         <!--Adventure-->
         <scene sceneID="Gj9-w5-VY7">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="L8D-BM-Lhh" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController title="Adventure" id="a8m-DY-sHm" customClass="AdventureTable" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="AdE-cP-GmB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Adv" textLabel="zPL-G9-Vau" detailTextLabel="5QM-xf-FJ7" style="IBUITableViewCellStyleValue2" id="cZ6-QS-qSG">
+                            <tableViewCell contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Adv" textLabel="zPL-G9-Vau" detailTextLabel="5QM-xf-FJ7" style="IBUITableViewCellStyleValue2" id="cZ6-QS-qSG">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cZ6-QS-qSG" id="l35-ui-Icy">
@@ -228,6 +227,10 @@ and sun</string>
                                     </subviews>
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" red="0.85253781080000002" green="0.87748128179999996" blue="0.88490068909999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES"/>
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
                                 <connections>
                                     <segue destination="DEG-NE-pgE" kind="show" identifier="Adventure" id="c53-Dr-KbR"/>
                                 </connections>
@@ -239,8 +242,24 @@ and sun</string>
                         </connections>
                     </tableView>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L8D-BM-Lhh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2534" y="-627"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="T0z-kS-0U6">
+            <objects>
+                <viewController id="Sy8-oR-UaQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="58O-66-0CE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="LbD-a3-Afe"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ehs-EE-xaz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3785" y="-1342"/>
         </scene>
         <!--Adventure View-->
         <scene sceneID="PU9-n3-3Av">
@@ -455,6 +474,9 @@ and sun</string>
                                     </subviews>
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" red="0.85253781080000002" green="0.87748128179999996" blue="0.88490068909999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <segue destination="kXa-hZ-VYa" kind="show" identifier="Beach" id="mnl-d1-KMW"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -466,6 +488,57 @@ and sun</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kkf-jZ-PV7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2534" y="885"/>
+        </scene>
+        <!--Beach View-->
+        <scene sceneID="6rv-I1-gdh">
+            <objects>
+                <viewController id="kXa-hZ-VYa" customClass="BeachView" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xU0-5g-lWY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iiT-Ur-w0h">
+                                <rect key="frame" x="29" y="260" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jHS-BP-nTH">
+                                <rect key="frame" x="52" y="299" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CDi-db-7ls">
+                                <rect key="frame" x="29" y="345" width="318" height="183"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n4d-xj-Od1">
+                                <rect key="frame" x="0.0" y="66" width="375" height="186"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.85253781080000002" green="0.87748128179999996" blue="0.88490068909999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="CDi-db-7ls" firstAttribute="top" secondItem="jHS-BP-nTH" secondAttribute="bottom" constant="25" id="3ji-kK-sVY"/>
+                            <constraint firstItem="m7o-6o-idU" firstAttribute="bottom" secondItem="jHS-BP-nTH" secondAttribute="bottom" constant="298" id="EZC-iB-HNm"/>
+                            <constraint firstItem="jHS-BP-nTH" firstAttribute="top" secondItem="iiT-Ur-w0h" secondAttribute="bottom" constant="18" id="qMu-1b-hIn"/>
+                            <constraint firstItem="iiT-Ur-w0h" firstAttribute="top" secondItem="n4d-xj-Od1" secondAttribute="bottom" constant="8" id="vwE-vN-Z08"/>
+                            <constraint firstItem="m7o-6o-idU" firstAttribute="bottom" secondItem="CDi-db-7ls" secondAttribute="bottom" constant="90" id="xaj-bq-cv7"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="m7o-6o-idU"/>
+                    </view>
+                    <connections>
+                        <outlet property="Description" destination="CDi-db-7ls" id="eNx-Wx-d3u"/>
+                        <outlet property="Location" destination="jHS-BP-nTH" id="gQm-eA-ddP"/>
+                        <outlet property="Name" destination="iiT-Ur-w0h" id="SnR-hL-L0y"/>
+                        <outlet property="img" destination="n4d-xj-Od1" id="I6c-8N-bei"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vC7-uy-m6f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3784.8000000000002" y="884.70764617691157"/>
         </scene>
         <!--Item-->
         <scene sceneID="m0n-9Y-lkB">
