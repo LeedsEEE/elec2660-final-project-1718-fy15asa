@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "DataModel.h"
+#import "BeachView.h"
 @interface Beaches : UITableViewController
 
 @property (nonatomic,strong) DataModel *info;
