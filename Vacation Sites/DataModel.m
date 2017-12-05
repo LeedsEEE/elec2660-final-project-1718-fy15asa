@@ -194,35 +194,35 @@
         Deadsea.Name =@"Dead Sea";
         Deadsea.Location=@"Israel, Middle East";
         Deadsea.Description = @"Follow the mineral-rich muddy footprints of Herod, Solomon and Cleopatra to the legendary Dead Sea and resorts developed round its adjacent hot springs. This famed health destination, at the world's lowest dry point, is known for helping with rheumatic and skin problems.";
-        Deadsea.header = @"Africa & the Middle East";
+        Deadsea.header = @"DeadSea.jpg";
         
         self.afrrelaxation = [NSMutableArray array];
         Data *Marrakech = [[Data alloc]init];
         Marrakech.Name = @"Marrakech";
         Marrakech.Location = @"Marrakech-Tensift-El Haouz Region, Morocco, Africa";
         Marrakech.Description = @"Take a break from the heat and bustling streets of Marrakech to relax and indulge in one of the city's countless authentic hammams or world-class spas. Visit the luxurious Heritage Spa where only 100% natural organic products are used, or indulge your senses at the Hammam of La Maison Arabe.";
-        Marrakech.header = @"Africa & the Middle East";
+        Marrakech.header = @"Marrakeech.jpg";
         
         self.Asirelaxation = [NSMutableArray array];
         Data *Taipei = [[Data alloc]init];
         Taipei.Name = @"Taipei";
         Taipei.Location= @"Taiwan, Asia";
         Taipei.Description = @"Boasting an utterly exhilarating array of thermal hot springs, Taipei can easily claim to be the volcanic springs capital of Asia. Ninety-nine such tectonic treats dot the landscape, with many of the most popular spots within an hour's drive of downtown in Yangming Shan, Peitou and Wulai.";
-        Taipei.header = @"Asia";
+        Taipei.header = @"Taipei.jpg";
         
         self.Asirelaxation = [NSMutableArray array];
         Data *phuket = [[Data alloc]init];
         phuket.Name = @"Phuket";
         phuket.Location = @"Thailand, Asia";
         phuket.Description = @"Recently discovered as a spa haven, Phuket now offers a plethora of spas, such as the luxurious Spa Burasari, and the acclaimed Banyan Tree. Try one of many Banyan Indulgences at the Banyan Tree, featuring holistic signature treatments for complete physical, mental and spiritual renewal.";
-        phuket.header = @"Asia";
+        phuket.header = @"Phuket.jpg";
         
         self.Carrelaxation = [NSMutableArray array];
         Data *Negril = [[Data alloc]init];
         Negril.Name = @" Negril";
         Negril.Location = @"Westmoreland Parish, Jamaica, Caribbean, North America";
         Negril.Description = @"Health and relaxation resorts confetti Jamaica's vacation playground, Negril, from secluded holistic havens to vast, popular mega-resorts. Book massage treatments and then sink blissfully into the jubilant pace of life of this idyllic, laid-back beach resort, famed for its glorious white sands.";
-        Negril.header = @"Caribbean";
+        Negril.header = @"Negril.jpg";
        
         
         self.eurorelaxation = [NSMutableArray array];
@@ -230,28 +230,28 @@
         Iceland.Name = @"Iceland";
         Iceland.Location = @"Europe";
         Iceland.Description=@"Richer in geothermal activity than any other country, Iceland is a veritable hot spring hotspot. Around 800 hot springs, some with dramatically spouting geysers, pepper the landscape. The most famed is the stunning, steaming, turquoise Blue Lagoon in Grindavik, just beside capital Reykjavik.Richer in geothermal activity than any other country, Iceland is a veritable hot spring hotspot. Around 800 hot springs, some with dramatically spouting geysers, pepper the landscape. The most famed is the stunning, steaming, turquoise Blue Lagoon in Grindavik, just beside capital Reykjavik.";
-        Iceland.header = @"Europe";
+        Iceland.header = @"Iceland.jpg";
         
         self.eurorelaxation = [NSMutableArray array];
         Data *Budapest = [[Data alloc]init];
         Budapest.Name =@"Budapest";
         Budapest.Location = @"Central Hungary, Hungary, Europe";
         Budapest.Description=@"Over 15 million gallons of water bubble into Budapest's 118 springs and boreholes daily. The city of spas offers an astounding array of baths, from the sparkling Gellert Baths to the vast 1913 neo-Baroque Szechenyi Spa to Rudas Spa, a dramatic 16th-century Turkish pool with original Ottoman architecture.";
-        Budapest.header=@"Europe";
+        Budapest.header=@"Budapest.jpg";
         
         self.mexrelaxation = [NSMutableArray array];
         Data *Costa = [[Data alloc]init];
         Costa.Name=@"Costa Rica";
         Costa.Location = @"Central America";
         Costa.Description=@"Breathtaking mineral pools, magma-heated lagoons and toasty hot volcano-fed hot springs abound in Costa Rica. Perhaps the most famed is San Carlos hot springs, where shaman-led temazcal rituals include chanting and meditation at a traditional Mesoamerican sweat lodge and steaming waters await.";
-        Costa.header=@"Mexico, Central & South America";
+        Costa.header=@"Costa.jpg";
         
         self.mexrelaxation = [NSMutableArray array];
         Data *Tulum = [[Data alloc]init];
         Tulum.Name = @"Tulum";
         Tulum.Location = @"Yucatan Peninsula, Mexico, North America";
         Tulum.Description=@"Traditional Maya spas have become yet another reason to visit ruin-rich Tulum. Today's spas offer Westernized takes on the mystical, spiritual Maya massage rituals. Acclaimed Yucatan health haven Maya Tulum offers the blissful combination of palapa rooms on a sandy spit and soothing holistic treatments.";
-        Tulum.header = @"Mexico, Central & South America";
+        Tulum.header = @"Tulum.jpg";
         
         
         
@@ -260,21 +260,21 @@
         Fiji.Name = @"Fiji";
         Fiji.Location = @"South Pacific";
         Fiji.Description = @"If it wasn't soothing enough already, Fiji offers an enticing array of distinctive relaxation options. Traditional Fijian Bobo massage, a healing blend of massage and local nut oils, Duavata island-style four-handed massage and Thalgo therapy mud and algae wraps top enticing local treatment options.";
-        Fiji.header = @"South Pacific";
+        Fiji.header = @"Fiji.jpg";
         
         self.sprelaxation = [NSMutableArray array];
         Data *Rotorua = [[Data alloc]init];
         Rotorua.Name=@"Rotorua";
         Rotorua.Location = @"Rotorua District, Bay of Plenty Region, North Island, New Zealand, South Pacific";
         Rotorua.Description =@"A bevy of bubbling mineral springs and pools lure lovers of outdoor relaxation opportunities to Rotorua on New Zealand's North Island. Therapeutic hot mud pools, dramatic geysers and a buried village are within easy reach of the city. Many accommodations offer thermal swimming and plunge pools.";
-        Rotorua.header = @"South Pacific";
+        Rotorua.header = @"Rotorua.jpg";
         
         self.USrelaxation = [NSMutableArray array];
         Data *Hawaii = [[Data alloc]init];
         Hawaii.Name = @"Hawaii";
         Hawaii.Location =@"United States, North America";
         Hawaii.Description = @"As many types of spas as there are colors of volcanic sand abound in Hawaii. Choose from a flotilla of distinctively Hawaiian takes on traditional therapies, from seashell massage to volcanic ash facials and hot lava stone. If the energy of the dynamic waves doesn't renew you, test the waters of Watsu, a water-based shiatsu form.";
-        Hawaii.header = @"United Stated & Canada";
+        Hawaii.header = @"Hawaii.jpg";
         
         
         self.USrelaxation = [NSMutableArray array];
@@ -282,7 +282,7 @@
         Scottsdale.Name = @"Scottsdale";
         Scottsdale.Location = @"Arizona, United States, North America";
         Scottsdale.Description = @"A constellation of stellar spas and resorts dot the upscale desert and surrounds of Scottsdale. With the highest number of resort spas per capita in the U.S., Scottsdale's sumptuous resorts lure luminaries, visitors and locals for every decadent and relaxing treatment under the hot Arizona sun.";
-        Scottsdale.header = @"United States & Canada";
+        Scottsdale.header = @"Scottsdale.jpg";
         // End of Relaxation and Rejuvenation
         
         //Start of Beaches & Sun Objects
@@ -292,14 +292,14 @@
         Camps.Name = @"Camps Bay";
         Camps.Location=@"Western Cape, South Africa, Africa";
         Camps.Description=@"Shaded spots go early at Cape Town's crowded Camps Bay, where locals picnic and play in the strong Atlantic waves. Look for the flagged bathing areas for safer swims for all the family. Festive cafes sit adjacent to the sands, which are dramatically set at the foot of the Twelve Apostles mountains.";
-        Camps.header = @"Africa & the Middle East";
+        Camps.header = @"Camps.jpg";
         
         self.afrbeaches = [NSMutableArray array];
         Data *Seychelles = [[Data alloc]init];
         Seychelles.Name = @" Seychelles";
         Seychelles.Location = @"Africa";
         Seychelles.Description =@"This Indian Ocean group of 100+ islands is home to some of the world's most beautiful beaches, including the popular white powder of Beau Vallon on Mahe and Anse Lazio on Praslin. The stunning pink sands and boulders of Anse Source d'Argent on La Digue lead many to call it the most gorgeous beach on earth.";
-        Seychelles.header = @"Africa & the Middle East";
+        Seychelles.header = @"Seychelles.jpg";
         
         
         self.Asibeaches = [NSMutableArray array];
@@ -307,14 +307,14 @@
         Maldives.Name = @"Maldives";
         Maldives.Location = @"Asia";
         Maldives.Description=@"More than two dozens Indian Ocean atolls and thousands of islets comprise the Maldives. Idyllic beaches, such as South Ari Atoll on Nalaguraidhoo, the Sun Island, are a dream come true for sand lovers. Swim out to the barrier reef - or from some parts of the island, admire the reef right from the gorgeous white beach.";
-        Maldives.header = @"Asia";
+        Maldives.header = @"Maldives.jpg";
         
         self.Asibeaches = [NSMutableArray array];
         Data *Ko = [[Data alloc]init];
         Ko.Name = @"Ko Samui";
         Ko.Location = @" Surat Thani Province, Thailand, Asia";
         Ko.Description = @"Koh Samui's myriad beaches present everything you could ever dream of in a tropical beach. Picture-perfect sands, coconut trees and palm fronds adorn each one, but there the similarities end. Choose from busy beaches, teeming with vendors and cafes, or secluded strips with not another person in sight.";
-        Ko.header = @"Asia";
+        Ko.header = @"Ko.jpg";
         
         
         self.Carbeaches = [NSMutableArray array];
@@ -322,7 +322,7 @@
         Virgin.Name = @"U.S. Virgin Islands";
         Virgin.Location = @"Caribbean, North America";
         Virgin.Description = @"Swaths of powdery sand separate green hills from the crystal-clear Caribbean waters surrounding the U.S. Virgin Islands. Beach aficionados should beeline for idyllic St. John, home of windsurfer-friendly Cinnamon Bay, the beachside cafes of Cruz Bay, and less-frequented Francis Bay beach.";
-        Virgin.header = @"Caribbean";
+        Virgin.header = @"Virgin.jpg";
         
         
         self.Carbeaches = [NSMutableArray array];
@@ -330,42 +330,42 @@
         stmartin.Name = @"St Martin";
         stmartin.Location = @" Caribbean, North America";
         stmartin.Description = @"There is no shortage of beautiful shoreline on St. Martin, which boasts some 37 beaches. What sets these apart from other Caribbean beaches is their breathtaking environs--visitors will not only be stunned by the white sand and gorgeous water but also by caves, cliffs, palm trees and rock formations.";
-        stmartin.header =@"Caribbean";
+        stmartin.header =@"StMartin.jpg";
         
         self.eurobeaches = [NSMutableArray array];
         Data *Santorini = [[Data alloc]init];
         Santorini.Name = @"Santorini";
         Santorini.Location = @"Cyclades, South Aegean, Greece, Europe";
         Santorini.Description =@"While most of the beaches on these geologically new Greek islands are black due to their volcanic creation, Santorini's most famous is probably Red Beach near Akrotiri. Perissa Beach on the main island’s west and Kamari Beach on the east are both long, black, spectacular and very popular with tourists.";
-        Santorini.header=@"Europe";
+        Santorini.header=@"santorini.jpg";
         
         self.eurobeaches = [NSMutableArray array];
         Data *Tenerife = [[Data alloc]init];
         Tenerife.Name=@"Tenerife";
         Tenerife.Location=@"Canary Islands, Spain, Europe";
         Tenerife.Description = @"Part of the Canary Islands, Tenerife is largely a resort island with brilliant man-made beaches of fine black shingle or golden sand. With calm, clear waters and an almost constant wind, Tenerife in a windsurfer's dream. You can also sunbathe, swim, snorkel and scuba dive along the beautiful coastline.";
-        Tenerife.header = @"Europe";
+        Tenerife.header = @"Tenerife.jpg";
         
         self.mexbeaches = [NSMutableArray array];
         Data *Cabo = [[Data alloc]init];
         Cabo.Name = @"Cabo San Lucas";
         Cabo.Location = @"Los Cabos, Baja California, Mexico, North America";
         Cabo.Description= @"Cabo's beaches are not just beautiful, they're also incredibly diverse. On the Pacific Ocean, the waves are delightful to watch, but often too dangerous for swimming. On the Sea of Cortez, the waters are sheltered and calm and the sand is white and warm.";
-        Cabo.header=@"Mexico, Central & South America";
+        Cabo.header=@"Cabo.jpg";
         
         self.mexbeaches = [NSMutableArray array];
         Data *Cozumel = [[Data alloc]init];
         Cozumel.Name = @"Cozumel";
         Cozumel.Location = @"Yucatan Peninsula, Mexico, North America";
         Cozumel.Description = @"Going to the seashore at Cozumel is fascinating because of the island's diverse beach offerings. Although it has its fair share of typically beautiful white-sand beaches, it also boasts a number of rocky beaches that are not great for sunbathing or swimming but are ideal for snorkeling.";
-        Cozumel.header = @"Mexico, Central & South America";
+        Cozumel.header = @"Cozumel.jpg";
         
         self.spbeaches = [NSMutableArray array];
         Data *Sydney = [[Data alloc]init];
         Sydney.Name = @"Sydney";
         Sydney.Location = @"New South Wales, Australia, South Pacific";
         Sydney.Description = @"With dozens of stunning ocean beaches within half an hour of downtown, there are few better urban beach destinations than Sydney. Famed Bondi Beach sees up to 40,000 on busy weekends. If quieter beaches appeal, take the coastal walk past smaller strands all the way to Coogee's calmer sands.";
-        Sydney.header = @"South Pacific";
+        Sydney.header = @"Sydney.jpg";
         
         
         self.spbeaches = [NSMutableArray array];
@@ -373,21 +373,21 @@
         Bora.Name = @"Bora Bora";
         Bora.Location = @"Society Islands, French Polynesia, South Pacific";
         Bora.Description = @"Although a fairly small island, Bora Bora offers visitors a multitude of activities. Go on a 4x4 safari, sunbathe and swim on white sandy beaches, dive in a natural underwater park among fish and corals, experience thrilling shark feedings or circle the turquoise lagoon by boat.";
-        Bora.header = @"South Pacific";
+        Bora.header = @"Bora.jpg";
         
         self.USbeaches = [NSMutableArray array];
         Data *Miami = [[Data alloc]init];
         Miami.Name=@"Miami Beach";
         Miami.Location=@"Florida, United States, North America";
         Miami.Description = @"At the shore in Miami Beach, visitors can swim, surf and jet ski in the warm and crystal-clear Atlantic waters. You can also nap on the white sands, work on a tan or simply watch the beautiful people, especially at South Beach, a favorite of models and celebrities.";
-        Miami.header= @"United States & Canada";
+        Miami.header= @"Miami.jpg";
         
         self.USbeaches = [NSMutableArray array];
         Data *Kauai = [[Data alloc]init];
         Kauai.Name=@"Kauai";
         Kauai.Location = @"Hawaii, United States, North America";
         Kauai.Description = @"With about 50 miles of beaches, Kauai has plenty of shoreline to explore. Swimming is great just about anywhere, but most people prefer the beaches on the north and south coasts, where the white sands stretch on and on and surfers refine their craft.";
-        Kauai.header = @"United States & Canada";
+        Kauai.header = @"Kauai.jpg";
         
         
         

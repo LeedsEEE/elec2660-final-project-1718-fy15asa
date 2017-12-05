@@ -1,24 +1,24 @@
 //
-//  BeachView.m
+//  RelaxView.m
 //  Vacation Sites
 //
 //  Created by Abdul on 04/12/2017.
 //  Copyright © 2017 University of Leeds. All rights reserved.
 //
 
-#import "BeachView.h"
+#import "RelaxView.h"
 
-@interface BeachView ()
+@interface RelaxView ()
 
 @end
 
-@implementation BeachView
+@implementation RelaxView
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.Name.text = self.data.Name;
-    self.Description.text = self.data.Description;
     self.Location.text = self.data.Location;
+    self.Description.text = self.data.Description;
     self.img.image = [UIImage imageNamed:[NSString stringWithFormat:@"%@",self.data.header]];
 }
 

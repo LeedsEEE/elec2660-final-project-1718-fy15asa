@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "DataModel.h"
-
+#import "RelaxView.h"
 
 @interface Relaxation : UITableViewController
 

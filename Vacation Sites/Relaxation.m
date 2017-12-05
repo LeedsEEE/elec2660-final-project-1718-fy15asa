@@ -156,17 +156,52 @@
  }
  */
 
-/*
+
  #pragma mark - Navigation
  
- // In a storyboard-based application, you will often want to do a little preparation before navigation
  - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
- // Get the new view controller using [segue destinationViewController].
- // Pass the selected object to the new view controller.
+ 
+ 
+ 
+ if ([[segue identifier] isEqualToString:@"Relax"]){
+ 
+ RelaxView *destinationViewController = [segue destinationViewController];
+ NSIndexPath *indexpath = [self.tableView indexPathForSelectedRow];
+ if(indexpath.section == 0){
+ Data *tempadv = [self.info.Asirelaxation objectAtIndex:indexpath.row];
+ destinationViewController.data =tempadv;
  }
- */
-
-
-
-@end
-
+ else if (indexpath.section == 1){
+ Data *tempadv = [self.info.afrrelaxation objectAtIndex:indexpath.row];
+ destinationViewController.data =tempadv;
+ }
+ else if (indexpath.section == 2){
+ Data *tempadv = [self.info.Carrelaxation objectAtIndex:indexpath.row];
+ destinationViewController.data =tempadv;
+ }
+ else if (indexpath.section == 3){
+ Data *tempadv = [self.info.eurorelaxation objectAtIndex:indexpath.row];
+ destinationViewController.data =tempadv;
+ }
+ else if (indexpath.section == 4){
+ Data *tempadv = [self.info.mexrelaxation objectAtIndex:indexpath.row];
+ destinationViewController.data =tempadv;
+ }
+ else if (indexpath.section == 5){
+ Data *tempadv = [self.info.sprelaxation objectAtIndex:indexpath.row];
+ destinationViewController.data =tempadv;
+ }
+ else if (indexpath.section == 6){
+ Data *tempadv = [self.info.USrelaxation objectAtIndex:indexpath.row];
+ destinationViewController.data =tempadv;
+ }
+ 
+ }
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ @end
