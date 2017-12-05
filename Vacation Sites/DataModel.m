@@ -201,7 +201,7 @@
         Marrakech.Name = @"Marrakech";
         Marrakech.Location = @"Marrakech-Tensift-El Haouz Region, Morocco, Africa";
         Marrakech.Description = @"Take a break from the heat and bustling streets of Marrakech to relax and indulge in one of the city's countless authentic hammams or world-class spas. Visit the luxurious Heritage Spa where only 100% natural organic products are used, or indulge your senses at the Hammam of La Maison Arabe.";
-        Marrakech.header = @"Marrakeech.jpg";
+        Marrakech.header = @"Marrakech.jpg";
         
         self.Asirelaxation = [NSMutableArray array];
         Data *Taipei = [[Data alloc]init];
@@ -391,6 +391,7 @@
         
         
         
+        
         [self.Caradventure addObject:sanjuan];
         [self.Caradventure addObject:Bahamas];
         [self.afradventure addObject:VictoriaFalls];
@@ -440,11 +441,15 @@
         [self.spbeaches addObject:Bora];
         [self.USbeaches addObject:Miami];
         [self.USbeaches addObject:Kauai];
+        
       //Adventure End Total 14 objects.
         
         
     }
     return self;
 }
+
+    
+
 
 @end

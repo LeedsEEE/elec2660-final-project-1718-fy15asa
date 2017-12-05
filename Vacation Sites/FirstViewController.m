@@ -19,7 +19,15 @@
     self.relax.titleLabel.numberOfLines = 3;
     self.beach.titleLabel.numberOfLines = 3;
     self.family.titleLabel.numberOfLines = 2;
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    /*self.Booking.delegate = self;
+    NSString *url = @"http://www.booking.com";
+    NSURL *URL = [NSURL URLWithString:url];
+    NSURLRequest *requestURL = [NSURLRequest requestWithURL:URL];
+    [self.Booking loadRequest:requestURL];
+     
+    // Do any additional setup after loading the view, typically from a nib.*/
 }
 
 

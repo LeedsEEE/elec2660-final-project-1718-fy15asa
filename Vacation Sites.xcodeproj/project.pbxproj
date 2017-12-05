@@ -24,58 +24,60 @@
 		962A80B01FD46FAF00FE7E8F /* Beaches.m in Sources */ = {isa = PBXBuildFile; fileRef = 962A80AF1FD46FAF00FE7E8F /* Beaches.m */; };
 		962A80BA1FD487CE00FE7E8F /* AdventureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 962A80B91FD487CE00FE7E8F /* AdventureView.m */; };
 		962A80BF1FD49CD500FE7E8F /* FamilyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 962A80BE1FD49CD500FE7E8F /* FamilyView.m */; };
-		962A80D91FD4A26A00FE7E8F /* playa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 962A80D11FD4A26900FE7E8F /* playa.jpg */; };
-		962A80DA1FD4A26A00FE7E8F /* cancun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 962A80D21FD4A26900FE7E8F /* cancun.jpg */; };
-		962A80DB1FD4A26A00FE7E8F /* Dominican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 962A80D31FD4A26900FE7E8F /* Dominican.jpg */; };
-		962A80DC1FD4A26A00FE7E8F /* Aruba.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 962A80D41FD4A26900FE7E8F /* Aruba.jpg */; };
-		962A80DD1FD4A26A00FE7E8F /* Orlando.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 962A80D51FD4A26900FE7E8F /* Orlando.jpg */; };
-		962A80DE1FD4A26A00FE7E8F /* Dublin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 962A80D61FD4A26900FE7E8F /* Dublin.jpg */; };
-		962A80DF1FD4A26A00FE7E8F /* Anaheim.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 962A80D71FD4A26A00FE7E8F /* Anaheim.jpg */; };
-		962A80E01FD4A26A00FE7E8F /* Barcelona.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 962A80D81FD4A26A00FE7E8F /* Barcelona.jpg */; };
-		962A80EF1FD4B4DF00FE7E8F /* GrandCanyon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 962A80E11FD4B4DD00FE7E8F /* GrandCanyon.jpg */; };
-		962A80F01FD4B4DF00FE7E8F /* Ambergris.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 962A80E21FD4B4DD00FE7E8F /* Ambergris.jpg */; };
-		962A80F11FD4B4DF00FE7E8F /* Chengdu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 962A80E31FD4B4DD00FE7E8F /* Chengdu.jpg */; };
-		962A80F21FD4B4DF00FE7E8F /* Kilua.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 962A80E41FD4B4DE00FE7E8F /* Kilua.jpg */; };
-		962A80F31FD4B4DF00FE7E8F /* Reef.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 962A80E51FD4B4DE00FE7E8F /* Reef.jpg */; };
-		962A80F41FD4B4DF00FE7E8F /* SanJuan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 962A80E61FD4B4DE00FE7E8F /* SanJuan.jpg */; };
-		962A80F51FD4B4DF00FE7E8F /* VictoriaFalls.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 962A80E71FD4B4DE00FE7E8F /* VictoriaFalls.jpg */; };
-		962A80F61FD4B4DF00FE7E8F /* Bali.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 962A80E81FD4B4DE00FE7E8F /* Bali.jpg */; };
-		962A80F71FD4B4DF00FE7E8F /* Bahamas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 962A80E91FD4B4DE00FE7E8F /* Bahamas.jpg */; };
-		962A80F81FD4B4DF00FE7E8F /* Rarotonga.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 962A80EA1FD4B4DE00FE7E8F /* Rarotonga.jpg */; };
-		962A80F91FD4B4DF00FE7E8F /* KrugerPark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 962A80EB1FD4B4DF00FE7E8F /* KrugerPark.jpg */; };
-		962A80FA1FD4B4DF00FE7E8F /* Machu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 962A80EC1FD4B4DF00FE7E8F /* Machu.jpg */; };
-		962A80FB1FD4B4DF00FE7E8F /* alpes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 962A80ED1FD4B4DF00FE7E8F /* alpes.jpg */; };
-		962A80FC1FD4B4DF00FE7E8F /* Scott.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 962A80EE1FD4B4DF00FE7E8F /* Scott.jpg */; };
-		968CBA951FD4D07200069A3F /* BeachView.m in Sources */ = {isa = PBXBuildFile; fileRef = 968CBA941FD4D07200069A3F /* BeachView.m */; };
-		968CBA981FD56B3700069A3F /* images.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 968CBA971FD56B3600069A3F /* images.bundle */; };
-		968CBAA71FD60E4000069A3F /* Cabo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBA991FD60E3D00069A3F /* Cabo.jpg */; };
-		968CBAA81FD60E4000069A3F /* Camps.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBA9A1FD60E3D00069A3F /* Camps.jpg */; };
-		968CBAA91FD60E4000069A3F /* Ko.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBA9B1FD60E3D00069A3F /* Ko.jpg */; };
-		968CBAAA1FD60E4000069A3F /* Miami.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBA9C1FD60E3D00069A3F /* Miami.jpg */; };
-		968CBAAB1FD60E4000069A3F /* Seychelles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBA9D1FD60E3E00069A3F /* Seychelles.jpg */; };
-		968CBAAC1FD60E4000069A3F /* StMartin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBA9E1FD60E3E00069A3F /* StMartin.jpg */; };
-		968CBAAD1FD60E4000069A3F /* Virgin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBA9F1FD60E3E00069A3F /* Virgin.jpg */; };
-		968CBAAE1FD60E4000069A3F /* santorini.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBAA01FD60E3F00069A3F /* santorini.jpg */; };
-		968CBAAF1FD60E4000069A3F /* Kauai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBAA11FD60E3F00069A3F /* Kauai.jpg */; };
-		968CBAB01FD60E4000069A3F /* Bora.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBAA21FD60E3F00069A3F /* Bora.jpg */; };
-		968CBAB11FD60E4000069A3F /* Tenerife.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBAA31FD60E3F00069A3F /* Tenerife.jpg */; };
-		968CBAB21FD60E4000069A3F /* Cozumel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBAA41FD60E3F00069A3F /* Cozumel.jpg */; };
-		968CBAB31FD60E4000069A3F /* Maldives.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBAA51FD60E4000069A3F /* Maldives.jpg */; };
-		968CBAB41FD60E4000069A3F /* Sydney.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBAA61FD60E4000069A3F /* Sydney.jpg */; };
-		968CBAC21FD6153500069A3F /* Marrakech.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBAB51FD6153000069A3F /* Marrakech.jpg */; };
-		968CBAC31FD6153500069A3F /* Tulum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBAB61FD6153100069A3F /* Tulum.jpg */; };
-		968CBAC41FD6153500069A3F /* Hawaii.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBAB71FD6153100069A3F /* Hawaii.jpg */; };
-		968CBAC51FD6153500069A3F /* Rotorua.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBAB81FD6153200069A3F /* Rotorua.jpg */; };
-		968CBAC61FD6153500069A3F /* Iceland.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBAB91FD6153200069A3F /* Iceland.jpg */; };
-		968CBAC71FD6153500069A3F /* Phuket.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBABA1FD6153200069A3F /* Phuket.jpg */; };
-		968CBAC81FD6153500069A3F /* DeadSea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBABB1FD6153300069A3F /* DeadSea.jpg */; };
-		968CBAC91FD6153500069A3F /* Budapest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBABC1FD6153300069A3F /* Budapest.jpg */; };
-		968CBACA1FD6153500069A3F /* Negril.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBABD1FD6153300069A3F /* Negril.jpg */; };
-		968CBACB1FD6153500069A3F /* Costa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBABE1FD6153400069A3F /* Costa.jpg */; };
-		968CBACC1FD6153500069A3F /* Scottsdale.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBABF1FD6153400069A3F /* Scottsdale.jpg */; };
-		968CBACD1FD6153500069A3F /* Fiji.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBAC01FD6153400069A3F /* Fiji.jpg */; };
-		968CBACE1FD6153500069A3F /* Taipei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBAC11FD6153500069A3F /* Taipei.jpg */; };
+		968CBA951FD4D07200069A3F /*  BeachView.m in Sources */ = {isa = PBXBuildFile; fileRef = 968CBA941FD4D07200069A3F /*  BeachView.m */; };
 		968CBAD11FD6169B00069A3F /* RelaxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 968CBAD01FD6169B00069A3F /* RelaxView.m */; };
+		968CBAD61FD632FE00069A3F /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968CBAD51FD632E800069A3F /* WebKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		968CBAD91FD6332000069A3F /* WebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 968CBAD81FD6332000069A3F /* WebView.m */; };
+		968CBAE81FD6393F00069A3F /* Chengdu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBADA1FD6393D00069A3F /* Chengdu.jpg */; };
+		968CBAE91FD6393F00069A3F /* alpes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBADB1FD6393E00069A3F /* alpes.jpg */; };
+		968CBAEA1FD6393F00069A3F /* Scott.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBADC1FD6393E00069A3F /* Scott.jpg */; };
+		968CBAEB1FD6393F00069A3F /* Bahamas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBADD1FD6393E00069A3F /* Bahamas.jpg */; };
+		968CBAEC1FD6393F00069A3F /* SanJuan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBADE1FD6393E00069A3F /* SanJuan.jpg */; };
+		968CBAED1FD6393F00069A3F /* Kilua.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBADF1FD6393E00069A3F /* Kilua.jpg */; };
+		968CBAEE1FD6393F00069A3F /* Reef.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBAE01FD6393E00069A3F /* Reef.jpg */; };
+		968CBAEF1FD6393F00069A3F /* Bali.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBAE11FD6393E00069A3F /* Bali.jpg */; };
+		968CBAF01FD6393F00069A3F /* GrandCanyon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBAE21FD6393E00069A3F /* GrandCanyon.jpg */; };
+		968CBAF11FD6393F00069A3F /* KrugerPark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBAE31FD6393E00069A3F /* KrugerPark.jpg */; };
+		968CBAF21FD6393F00069A3F /* Ambergris.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBAE41FD6393E00069A3F /* Ambergris.jpg */; };
+		968CBAF31FD6393F00069A3F /* VictoriaFalls.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBAE51FD6393F00069A3F /* VictoriaFalls.jpg */; };
+		968CBAF41FD6393F00069A3F /* Rarotonga.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBAE61FD6393F00069A3F /* Rarotonga.jpg */; };
+		968CBAF51FD6393F00069A3F /* Machu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBAE71FD6393F00069A3F /* Machu.jpg */; };
+		968CBB041FD6394E00069A3F /* Cozumel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBAF61FD6394C00069A3F /* Cozumel.jpg */; };
+		968CBB051FD6394E00069A3F /* Maldives.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBAF71FD6394D00069A3F /* Maldives.jpg */; };
+		968CBB061FD6394E00069A3F /* Tenerife.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBAF81FD6394D00069A3F /* Tenerife.jpg */; };
+		968CBB071FD6394E00069A3F /* Seychelles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBAF91FD6394D00069A3F /* Seychelles.jpg */; };
+		968CBB081FD6394E00069A3F /* StMartin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBAFA1FD6394D00069A3F /* StMartin.jpg */; };
+		968CBB091FD6394E00069A3F /* Virgin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBAFB1FD6394D00069A3F /* Virgin.jpg */; };
+		968CBB0A1FD6394E00069A3F /* Camps.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBAFC1FD6394D00069A3F /* Camps.jpg */; };
+		968CBB0B1FD6394E00069A3F /* Sydney.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBAFD1FD6394D00069A3F /* Sydney.jpg */; };
+		968CBB0C1FD6394E00069A3F /* Bora.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBAFE1FD6394D00069A3F /* Bora.jpg */; };
+		968CBB0D1FD6394E00069A3F /* Ko.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBAFF1FD6394E00069A3F /* Ko.jpg */; };
+		968CBB0E1FD6394E00069A3F /* Kauai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBB001FD6394E00069A3F /* Kauai.jpg */; };
+		968CBB0F1FD6394E00069A3F /* Cabo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBB011FD6394E00069A3F /* Cabo.jpg */; };
+		968CBB101FD6394E00069A3F /* Miami.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBB021FD6394E00069A3F /* Miami.jpg */; };
+		968CBB111FD6394E00069A3F /* santorini.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBB031FD6394E00069A3F /* santorini.jpg */; };
+		968CBB191FD6395800069A3F /* Aruba.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBB121FD6395700069A3F /* Aruba.jpg */; };
+		968CBB1A1FD6395800069A3F /* Dominican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBB131FD6395800069A3F /* Dominican.jpg */; };
+		968CBB1B1FD6395800069A3F /* Dublin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBB141FD6395800069A3F /* Dublin.jpg */; };
+		968CBB1C1FD6395800069A3F /* cancun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBB151FD6395800069A3F /* cancun.jpg */; };
+		968CBB1D1FD6395800069A3F /* Anaheim.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBB161FD6395800069A3F /* Anaheim.jpg */; };
+		968CBB1E1FD6395800069A3F /* Barcelona.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBB171FD6395800069A3F /* Barcelona.jpg */; };
+		968CBB1F1FD6395800069A3F /* playa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBB181FD6395800069A3F /* playa.jpg */; };
+		968CBB2D1FD6396400069A3F /* Tulum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBB201FD6396300069A3F /* Tulum.jpg */; };
+		968CBB2E1FD6396400069A3F /* Fiji.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBB211FD6396300069A3F /* Fiji.jpg */; };
+		968CBB2F1FD6396400069A3F /* Hawaii.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBB221FD6396300069A3F /* Hawaii.jpg */; };
+		968CBB301FD6396400069A3F /* Taipei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBB231FD6396300069A3F /* Taipei.jpg */; };
+		968CBB311FD6396400069A3F /* Scottsdale.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBB241FD6396300069A3F /* Scottsdale.jpg */; };
+		968CBB321FD6396400069A3F /* Rotorua.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBB251FD6396300069A3F /* Rotorua.jpg */; };
+		968CBB331FD6396400069A3F /* Phuket.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBB261FD6396400069A3F /* Phuket.jpg */; };
+		968CBB341FD6396400069A3F /* Budapest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBB271FD6396400069A3F /* Budapest.jpg */; };
+		968CBB351FD6396400069A3F /* Costa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBB281FD6396400069A3F /* Costa.jpg */; };
+		968CBB361FD6396400069A3F /* DeadSea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBB291FD6396400069A3F /* DeadSea.jpg */; };
+		968CBB371FD6396400069A3F /* Negril.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBB2A1FD6396400069A3F /* Negril.jpg */; };
+		968CBB381FD6396400069A3F /* Iceland.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBB2B1FD6396400069A3F /* Iceland.jpg */; };
+		968CBB391FD6396400069A3F /* Marrakech.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBB2C1FD6396400069A3F /* Marrakech.jpg */; };
+		968CBB3C1FD6499F00069A3F /* NotesTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 968CBB3B1FD6499F00069A3F /* NotesTable.m */; };
+		968CBB3F1FD659C700069A3F /* NoteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 968CBB3E1FD659C700069A3F /* NoteView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,60 +132,65 @@
 		962A80B91FD487CE00FE7E8F /* AdventureView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdventureView.m; sourceTree = "<group>"; };
 		962A80BD1FD49CD500FE7E8F /* FamilyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FamilyView.h; sourceTree = "<group>"; };
 		962A80BE1FD49CD500FE7E8F /* FamilyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FamilyView.m; sourceTree = "<group>"; };
-		962A80D11FD4A26900FE7E8F /* playa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = playa.jpg; path = "../../../untitled folder/FamilyFun/playa.jpg"; sourceTree = "<group>"; };
-		962A80D21FD4A26900FE7E8F /* cancun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cancun.jpg; path = "../../../untitled folder/FamilyFun/cancun.jpg"; sourceTree = "<group>"; };
-		962A80D31FD4A26900FE7E8F /* Dominican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Dominican.jpg; path = "../../../untitled folder/FamilyFun/Dominican.jpg"; sourceTree = "<group>"; };
-		962A80D41FD4A26900FE7E8F /* Aruba.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Aruba.jpg; path = "../../../untitled folder/FamilyFun/Aruba.jpg"; sourceTree = "<group>"; };
-		962A80D51FD4A26900FE7E8F /* Orlando.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Orlando.jpg; path = "../../../untitled folder/FamilyFun/Orlando.jpg"; sourceTree = "<group>"; };
-		962A80D61FD4A26900FE7E8F /* Dublin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Dublin.jpg; path = "../../../untitled folder/FamilyFun/Dublin.jpg"; sourceTree = "<group>"; };
-		962A80D71FD4A26A00FE7E8F /* Anaheim.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Anaheim.jpg; path = "../../../untitled folder/FamilyFun/Anaheim.jpg"; sourceTree = "<group>"; };
-		962A80D81FD4A26A00FE7E8F /* Barcelona.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Barcelona.jpg; path = "../../../untitled folder/FamilyFun/Barcelona.jpg"; sourceTree = "<group>"; };
-		962A80E11FD4B4DD00FE7E8F /* GrandCanyon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GrandCanyon.jpg; sourceTree = "<group>"; };
-		962A80E21FD4B4DD00FE7E8F /* Ambergris.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ambergris.jpg; sourceTree = "<group>"; };
-		962A80E31FD4B4DD00FE7E8F /* Chengdu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Chengdu.jpg; sourceTree = "<group>"; };
-		962A80E41FD4B4DE00FE7E8F /* Kilua.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kilua.jpg; sourceTree = "<group>"; };
-		962A80E51FD4B4DE00FE7E8F /* Reef.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Reef.jpg; sourceTree = "<group>"; };
-		962A80E61FD4B4DE00FE7E8F /* SanJuan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SanJuan.jpg; sourceTree = "<group>"; };
-		962A80E71FD4B4DE00FE7E8F /* VictoriaFalls.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = VictoriaFalls.jpg; sourceTree = "<group>"; };
-		962A80E81FD4B4DE00FE7E8F /* Bali.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bali.jpg; sourceTree = "<group>"; };
-		962A80E91FD4B4DE00FE7E8F /* Bahamas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bahamas.jpg; sourceTree = "<group>"; };
-		962A80EA1FD4B4DE00FE7E8F /* Rarotonga.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rarotonga.jpg; sourceTree = "<group>"; };
-		962A80EB1FD4B4DF00FE7E8F /* KrugerPark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = KrugerPark.jpg; sourceTree = "<group>"; };
-		962A80EC1FD4B4DF00FE7E8F /* Machu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Machu.jpg; sourceTree = "<group>"; };
-		962A80ED1FD4B4DF00FE7E8F /* alpes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = alpes.jpg; sourceTree = "<group>"; };
-		962A80EE1FD4B4DF00FE7E8F /* Scott.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Scott.jpg; sourceTree = "<group>"; };
 		968CBA931FD4D07200069A3F /* BeachView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeachView.h; sourceTree = "<group>"; };
-		968CBA941FD4D07200069A3F /* BeachView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeachView.m; sourceTree = "<group>"; };
-		968CBA971FD56B3600069A3F /* images.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = images.bundle; sourceTree = "<group>"; };
-		968CBA991FD60E3D00069A3F /* Cabo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cabo.jpg; sourceTree = "<group>"; };
-		968CBA9A1FD60E3D00069A3F /* Camps.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Camps.jpg; sourceTree = "<group>"; };
-		968CBA9B1FD60E3D00069A3F /* Ko.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ko.jpg; sourceTree = "<group>"; };
-		968CBA9C1FD60E3D00069A3F /* Miami.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Miami.jpg; sourceTree = "<group>"; };
-		968CBA9D1FD60E3E00069A3F /* Seychelles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Seychelles.jpg; sourceTree = "<group>"; };
-		968CBA9E1FD60E3E00069A3F /* StMartin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = StMartin.jpg; sourceTree = "<group>"; };
-		968CBA9F1FD60E3E00069A3F /* Virgin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Virgin.jpg; sourceTree = "<group>"; };
-		968CBAA01FD60E3F00069A3F /* santorini.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = santorini.jpg; sourceTree = "<group>"; };
-		968CBAA11FD60E3F00069A3F /* Kauai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kauai.jpg; sourceTree = "<group>"; };
-		968CBAA21FD60E3F00069A3F /* Bora.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bora.jpg; sourceTree = "<group>"; };
-		968CBAA31FD60E3F00069A3F /* Tenerife.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tenerife.jpg; sourceTree = "<group>"; };
-		968CBAA41FD60E3F00069A3F /* Cozumel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cozumel.jpg; sourceTree = "<group>"; };
-		968CBAA51FD60E4000069A3F /* Maldives.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Maldives.jpg; sourceTree = "<group>"; };
-		968CBAA61FD60E4000069A3F /* Sydney.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sydney.jpg; sourceTree = "<group>"; };
-		968CBAB51FD6153000069A3F /* Marrakech.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Marrakech.jpg; sourceTree = "<group>"; };
-		968CBAB61FD6153100069A3F /* Tulum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tulum.jpg; sourceTree = "<group>"; };
-		968CBAB71FD6153100069A3F /* Hawaii.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hawaii.jpg; sourceTree = "<group>"; };
-		968CBAB81FD6153200069A3F /* Rotorua.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rotorua.jpg; sourceTree = "<group>"; };
-		968CBAB91FD6153200069A3F /* Iceland.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Iceland.jpg; sourceTree = "<group>"; };
-		968CBABA1FD6153200069A3F /* Phuket.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Phuket.jpg; sourceTree = "<group>"; };
-		968CBABB1FD6153300069A3F /* DeadSea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DeadSea.jpg; sourceTree = "<group>"; };
-		968CBABC1FD6153300069A3F /* Budapest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Budapest.jpg; sourceTree = "<group>"; };
-		968CBABD1FD6153300069A3F /* Negril.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Negril.jpg; sourceTree = "<group>"; };
-		968CBABE1FD6153400069A3F /* Costa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Costa.jpg; sourceTree = "<group>"; };
-		968CBABF1FD6153400069A3F /* Scottsdale.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Scottsdale.jpg; sourceTree = "<group>"; };
-		968CBAC01FD6153400069A3F /* Fiji.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fiji.jpg; sourceTree = "<group>"; };
-		968CBAC11FD6153500069A3F /* Taipei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Taipei.jpg; sourceTree = "<group>"; };
+		968CBA941FD4D07200069A3F /*  BeachView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = " BeachView.m"; sourceTree = "<group>"; };
 		968CBACF1FD6169B00069A3F /* RelaxView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RelaxView.h; sourceTree = "<group>"; };
 		968CBAD01FD6169B00069A3F /* RelaxView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RelaxView.m; sourceTree = "<group>"; };
+		968CBAD51FD632E800069A3F /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		968CBAD71FD6332000069A3F /* WebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebView.h; sourceTree = "<group>"; };
+		968CBAD81FD6332000069A3F /* WebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebView.m; sourceTree = "<group>"; };
+		968CBADA1FD6393D00069A3F /* Chengdu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Chengdu.jpg; path = Images/Adventure/Chengdu.jpg; sourceTree = SOURCE_ROOT; };
+		968CBADB1FD6393E00069A3F /* alpes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = alpes.jpg; path = Images/Adventure/alpes.jpg; sourceTree = SOURCE_ROOT; };
+		968CBADC1FD6393E00069A3F /* Scott.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Scott.jpg; path = Images/Adventure/Scott.jpg; sourceTree = SOURCE_ROOT; };
+		968CBADD1FD6393E00069A3F /* Bahamas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Bahamas.jpg; path = Images/Adventure/Bahamas.jpg; sourceTree = SOURCE_ROOT; };
+		968CBADE1FD6393E00069A3F /* SanJuan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = SanJuan.jpg; path = Images/Adventure/SanJuan.jpg; sourceTree = SOURCE_ROOT; };
+		968CBADF1FD6393E00069A3F /* Kilua.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Kilua.jpg; path = Images/Adventure/Kilua.jpg; sourceTree = SOURCE_ROOT; };
+		968CBAE01FD6393E00069A3F /* Reef.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Reef.jpg; path = Images/Adventure/Reef.jpg; sourceTree = SOURCE_ROOT; };
+		968CBAE11FD6393E00069A3F /* Bali.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Bali.jpg; path = Images/Adventure/Bali.jpg; sourceTree = SOURCE_ROOT; };
+		968CBAE21FD6393E00069A3F /* GrandCanyon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = GrandCanyon.jpg; path = Images/Adventure/GrandCanyon.jpg; sourceTree = SOURCE_ROOT; };
+		968CBAE31FD6393E00069A3F /* KrugerPark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = KrugerPark.jpg; path = Images/Adventure/KrugerPark.jpg; sourceTree = SOURCE_ROOT; };
+		968CBAE41FD6393E00069A3F /* Ambergris.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Ambergris.jpg; path = Images/Adventure/Ambergris.jpg; sourceTree = SOURCE_ROOT; };
+		968CBAE51FD6393F00069A3F /* VictoriaFalls.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = VictoriaFalls.jpg; path = Images/Adventure/VictoriaFalls.jpg; sourceTree = SOURCE_ROOT; };
+		968CBAE61FD6393F00069A3F /* Rarotonga.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Rarotonga.jpg; path = Images/Adventure/Rarotonga.jpg; sourceTree = SOURCE_ROOT; };
+		968CBAE71FD6393F00069A3F /* Machu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Machu.jpg; path = Images/Adventure/Machu.jpg; sourceTree = SOURCE_ROOT; };
+		968CBAF61FD6394C00069A3F /* Cozumel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Cozumel.jpg; path = "Images/Beaches and Sun/Cozumel.jpg"; sourceTree = SOURCE_ROOT; };
+		968CBAF71FD6394D00069A3F /* Maldives.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Maldives.jpg; path = "Images/Beaches and Sun/Maldives.jpg"; sourceTree = SOURCE_ROOT; };
+		968CBAF81FD6394D00069A3F /* Tenerife.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Tenerife.jpg; path = "Images/Beaches and Sun/Tenerife.jpg"; sourceTree = SOURCE_ROOT; };
+		968CBAF91FD6394D00069A3F /* Seychelles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Seychelles.jpg; path = "Images/Beaches and Sun/Seychelles.jpg"; sourceTree = SOURCE_ROOT; };
+		968CBAFA1FD6394D00069A3F /* StMartin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = StMartin.jpg; path = "Images/Beaches and Sun/StMartin.jpg"; sourceTree = SOURCE_ROOT; };
+		968CBAFB1FD6394D00069A3F /* Virgin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Virgin.jpg; path = "Images/Beaches and Sun/Virgin.jpg"; sourceTree = SOURCE_ROOT; };
+		968CBAFC1FD6394D00069A3F /* Camps.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Camps.jpg; path = "Images/Beaches and Sun/Camps.jpg"; sourceTree = SOURCE_ROOT; };
+		968CBAFD1FD6394D00069A3F /* Sydney.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Sydney.jpg; path = "Images/Beaches and Sun/Sydney.jpg"; sourceTree = SOURCE_ROOT; };
+		968CBAFE1FD6394D00069A3F /* Bora.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Bora.jpg; path = "Images/Beaches and Sun/Bora.jpg"; sourceTree = SOURCE_ROOT; };
+		968CBAFF1FD6394E00069A3F /* Ko.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Ko.jpg; path = "Images/Beaches and Sun/Ko.jpg"; sourceTree = SOURCE_ROOT; };
+		968CBB001FD6394E00069A3F /* Kauai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Kauai.jpg; path = "Images/Beaches and Sun/Kauai.jpg"; sourceTree = SOURCE_ROOT; };
+		968CBB011FD6394E00069A3F /* Cabo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Cabo.jpg; path = "Images/Beaches and Sun/Cabo.jpg"; sourceTree = SOURCE_ROOT; };
+		968CBB021FD6394E00069A3F /* Miami.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Miami.jpg; path = "Images/Beaches and Sun/Miami.jpg"; sourceTree = SOURCE_ROOT; };
+		968CBB031FD6394E00069A3F /* santorini.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = santorini.jpg; path = "Images/Beaches and Sun/santorini.jpg"; sourceTree = SOURCE_ROOT; };
+		968CBB121FD6395700069A3F /* Aruba.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Aruba.jpg; path = Images/FamilyFun/Aruba.jpg; sourceTree = SOURCE_ROOT; };
+		968CBB131FD6395800069A3F /* Dominican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Dominican.jpg; path = Images/FamilyFun/Dominican.jpg; sourceTree = SOURCE_ROOT; };
+		968CBB141FD6395800069A3F /* Dublin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Dublin.jpg; path = Images/FamilyFun/Dublin.jpg; sourceTree = SOURCE_ROOT; };
+		968CBB151FD6395800069A3F /* cancun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cancun.jpg; path = Images/FamilyFun/cancun.jpg; sourceTree = SOURCE_ROOT; };
+		968CBB161FD6395800069A3F /* Anaheim.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Anaheim.jpg; path = Images/FamilyFun/Anaheim.jpg; sourceTree = SOURCE_ROOT; };
+		968CBB171FD6395800069A3F /* Barcelona.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Barcelona.jpg; path = Images/FamilyFun/Barcelona.jpg; sourceTree = SOURCE_ROOT; };
+		968CBB181FD6395800069A3F /* playa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = playa.jpg; path = Images/FamilyFun/playa.jpg; sourceTree = SOURCE_ROOT; };
+		968CBB201FD6396300069A3F /* Tulum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Tulum.jpg; path = Images/Relaxation/Tulum.jpg; sourceTree = SOURCE_ROOT; };
+		968CBB211FD6396300069A3F /* Fiji.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Fiji.jpg; path = Images/Relaxation/Fiji.jpg; sourceTree = SOURCE_ROOT; };
+		968CBB221FD6396300069A3F /* Hawaii.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Hawaii.jpg; path = Images/Relaxation/Hawaii.jpg; sourceTree = SOURCE_ROOT; };
+		968CBB231FD6396300069A3F /* Taipei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Taipei.jpg; path = Images/Relaxation/Taipei.jpg; sourceTree = SOURCE_ROOT; };
+		968CBB241FD6396300069A3F /* Scottsdale.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Scottsdale.jpg; path = Images/Relaxation/Scottsdale.jpg; sourceTree = SOURCE_ROOT; };
+		968CBB251FD6396300069A3F /* Rotorua.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Rotorua.jpg; path = Images/Relaxation/Rotorua.jpg; sourceTree = SOURCE_ROOT; };
+		968CBB261FD6396400069A3F /* Phuket.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Phuket.jpg; path = Images/Relaxation/Phuket.jpg; sourceTree = SOURCE_ROOT; };
+		968CBB271FD6396400069A3F /* Budapest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Budapest.jpg; path = Images/Relaxation/Budapest.jpg; sourceTree = SOURCE_ROOT; };
+		968CBB281FD6396400069A3F /* Costa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Costa.jpg; path = Images/Relaxation/Costa.jpg; sourceTree = SOURCE_ROOT; };
+		968CBB291FD6396400069A3F /* DeadSea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = DeadSea.jpg; path = Images/Relaxation/DeadSea.jpg; sourceTree = SOURCE_ROOT; };
+		968CBB2A1FD6396400069A3F /* Negril.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Negril.jpg; path = Images/Relaxation/Negril.jpg; sourceTree = SOURCE_ROOT; };
+		968CBB2B1FD6396400069A3F /* Iceland.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Iceland.jpg; path = Images/Relaxation/Iceland.jpg; sourceTree = SOURCE_ROOT; };
+		968CBB2C1FD6396400069A3F /* Marrakech.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Marrakech.jpg; path = Images/Relaxation/Marrakech.jpg; sourceTree = SOURCE_ROOT; };
+		968CBB3A1FD6499F00069A3F /* NotesTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotesTable.h; sourceTree = "<group>"; };
+		968CBB3B1FD6499F00069A3F /* NotesTable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotesTable.m; sourceTree = "<group>"; };
+		968CBB3D1FD659C700069A3F /* NoteView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoteView.h; sourceTree = "<group>"; };
+		968CBB3E1FD659C700069A3F /* NoteView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoteView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +198,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				968CBAD61FD632FE00069A3F /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +226,7 @@
 				962A807F1FC5FDF600FE7E8F /* Vacation SitesTests */,
 				962A808A1FC5FDF600FE7E8F /* Vacation SitesUITests */,
 				962A80621FC5FDF500FE7E8F /* Products */,
+				968CBAD41FD632E700069A3F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -239,6 +248,10 @@
 				962A809F1FC9DC8A00FE7E8F /* Data.h */,
 				962A80A21FCAF23D00FE7E8F /* DataModel.h */,
 				962A80A31FCAF23D00FE7E8F /* DataModel.m */,
+				968CBB3A1FD6499F00069A3F /* NotesTable.h */,
+				968CBB3B1FD6499F00069A3F /* NotesTable.m */,
+				968CBB3D1FD659C700069A3F /* NoteView.h */,
+				968CBB3E1FD659C700069A3F /* NoteView.m */,
 				962A80AE1FD46FAF00FE7E8F /* Beaches.h */,
 				962A80AF1FD46FAF00FE7E8F /* Beaches.m */,
 				962A80A01FC9DC8A00FE7E8F /* Data.m */,
@@ -252,7 +265,7 @@
 				968CBACF1FD6169B00069A3F /* RelaxView.h */,
 				968CBAD01FD6169B00069A3F /* RelaxView.m */,
 				968CBA931FD4D07200069A3F /* BeachView.h */,
-				968CBA941FD4D07200069A3F /* BeachView.m */,
+				968CBA941FD4D07200069A3F /*  BeachView.m */,
 				962A80BD1FD49CD500FE7E8F /* FamilyView.h */,
 				962A80BE1FD49CD500FE7E8F /* FamilyView.m */,
 				962A80B81FD487CE00FE7E8F /* AdventureView.h */,
@@ -261,11 +274,12 @@
 				962A80AC1FD460D200FE7E8F /* Relaxation.m */,
 				962A80A81FD32EFA00FE7E8F /* FamilyFun.h */,
 				962A80A91FD32EFA00FE7E8F /* FamilyFun.m */,
+				968CBAD71FD6332000069A3F /* WebView.h */,
+				968CBAD81FD6332000069A3F /* WebView.m */,
 				962A80701FC5FDF500FE7E8F /* Assets.xcassets */,
 				962A80721FC5FDF500FE7E8F /* LaunchScreen.storyboard */,
 				962A80751FC5FDF500FE7E8F /* Info.plist */,
 				962A80761FC5FDF500FE7E8F /* main.m */,
-				968CBA971FD56B3600069A3F /* images.bundle */,
 				962A80C01FD4A20000FE7E8F /* Supporting files */,
 			);
 			path = "Vacation Sites";
@@ -292,57 +306,64 @@
 		962A80C01FD4A20000FE7E8F /* Supporting files */ = {
 			isa = PBXGroup;
 			children = (
-				962A80ED1FD4B4DF00FE7E8F /* alpes.jpg */,
-				962A80E21FD4B4DD00FE7E8F /* Ambergris.jpg */,
-				962A80E91FD4B4DE00FE7E8F /* Bahamas.jpg */,
-				968CBAA21FD60E3F00069A3F /* Bora.jpg */,
-				968CBA991FD60E3D00069A3F /* Cabo.jpg */,
-				968CBA9A1FD60E3D00069A3F /* Camps.jpg */,
-				968CBABC1FD6153300069A3F /* Budapest.jpg */,
-				968CBABE1FD6153400069A3F /* Costa.jpg */,
-				968CBABB1FD6153300069A3F /* DeadSea.jpg */,
-				968CBAC01FD6153400069A3F /* Fiji.jpg */,
-				968CBAB71FD6153100069A3F /* Hawaii.jpg */,
-				968CBAB91FD6153200069A3F /* Iceland.jpg */,
-				968CBAB51FD6153000069A3F /* Marrakech.jpg */,
-				968CBABD1FD6153300069A3F /* Negril.jpg */,
-				968CBABA1FD6153200069A3F /* Phuket.jpg */,
-				968CBAB81FD6153200069A3F /* Rotorua.jpg */,
-				968CBABF1FD6153400069A3F /* Scottsdale.jpg */,
-				968CBAC11FD6153500069A3F /* Taipei.jpg */,
-				968CBAB61FD6153100069A3F /* Tulum.jpg */,
-				968CBAA41FD60E3F00069A3F /* Cozumel.jpg */,
-				968CBAA11FD60E3F00069A3F /* Kauai.jpg */,
-				968CBA9B1FD60E3D00069A3F /* Ko.jpg */,
-				968CBAA51FD60E4000069A3F /* Maldives.jpg */,
-				968CBA9C1FD60E3D00069A3F /* Miami.jpg */,
-				968CBAA01FD60E3F00069A3F /* santorini.jpg */,
-				968CBA9D1FD60E3E00069A3F /* Seychelles.jpg */,
-				968CBA9E1FD60E3E00069A3F /* StMartin.jpg */,
-				968CBAA61FD60E4000069A3F /* Sydney.jpg */,
-				968CBAA31FD60E3F00069A3F /* Tenerife.jpg */,
-				968CBA9F1FD60E3E00069A3F /* Virgin.jpg */,
-				962A80E81FD4B4DE00FE7E8F /* Bali.jpg */,
-				962A80E31FD4B4DD00FE7E8F /* Chengdu.jpg */,
-				962A80E11FD4B4DD00FE7E8F /* GrandCanyon.jpg */,
-				962A80E41FD4B4DE00FE7E8F /* Kilua.jpg */,
-				962A80EB1FD4B4DF00FE7E8F /* KrugerPark.jpg */,
-				962A80EC1FD4B4DF00FE7E8F /* Machu.jpg */,
-				962A80EA1FD4B4DE00FE7E8F /* Rarotonga.jpg */,
-				962A80E51FD4B4DE00FE7E8F /* Reef.jpg */,
-				962A80E61FD4B4DE00FE7E8F /* SanJuan.jpg */,
-				962A80EE1FD4B4DF00FE7E8F /* Scott.jpg */,
-				962A80E71FD4B4DE00FE7E8F /* VictoriaFalls.jpg */,
-				962A80D71FD4A26A00FE7E8F /* Anaheim.jpg */,
-				962A80D41FD4A26900FE7E8F /* Aruba.jpg */,
-				962A80D81FD4A26A00FE7E8F /* Barcelona.jpg */,
-				962A80D21FD4A26900FE7E8F /* cancun.jpg */,
-				962A80D31FD4A26900FE7E8F /* Dominican.jpg */,
-				962A80D61FD4A26900FE7E8F /* Dublin.jpg */,
-				962A80D51FD4A26900FE7E8F /* Orlando.jpg */,
-				962A80D11FD4A26900FE7E8F /* playa.jpg */,
+				968CBADB1FD6393E00069A3F /* alpes.jpg */,
+				968CBB161FD6395800069A3F /* Anaheim.jpg */,
+				968CBB121FD6395700069A3F /* Aruba.jpg */,
+				968CBB271FD6396400069A3F /* Budapest.jpg */,
+				968CBB281FD6396400069A3F /* Costa.jpg */,
+				968CBB291FD6396400069A3F /* DeadSea.jpg */,
+				968CBB211FD6396300069A3F /* Fiji.jpg */,
+				968CBB221FD6396300069A3F /* Hawaii.jpg */,
+				968CBB2B1FD6396400069A3F /* Iceland.jpg */,
+				968CBB2C1FD6396400069A3F /* Marrakech.jpg */,
+				968CBB2A1FD6396400069A3F /* Negril.jpg */,
+				968CBB261FD6396400069A3F /* Phuket.jpg */,
+				968CBB251FD6396300069A3F /* Rotorua.jpg */,
+				968CBB241FD6396300069A3F /* Scottsdale.jpg */,
+				968CBB231FD6396300069A3F /* Taipei.jpg */,
+				968CBB201FD6396300069A3F /* Tulum.jpg */,
+				968CBB171FD6395800069A3F /* Barcelona.jpg */,
+				968CBB151FD6395800069A3F /* cancun.jpg */,
+				968CBB131FD6395800069A3F /* Dominican.jpg */,
+				968CBB141FD6395800069A3F /* Dublin.jpg */,
+				968CBB181FD6395800069A3F /* playa.jpg */,
+				968CBAFE1FD6394D00069A3F /* Bora.jpg */,
+				968CBB011FD6394E00069A3F /* Cabo.jpg */,
+				968CBAFC1FD6394D00069A3F /* Camps.jpg */,
+				968CBAF61FD6394C00069A3F /* Cozumel.jpg */,
+				968CBB001FD6394E00069A3F /* Kauai.jpg */,
+				968CBAFF1FD6394E00069A3F /* Ko.jpg */,
+				968CBAF71FD6394D00069A3F /* Maldives.jpg */,
+				968CBB021FD6394E00069A3F /* Miami.jpg */,
+				968CBB031FD6394E00069A3F /* santorini.jpg */,
+				968CBAF91FD6394D00069A3F /* Seychelles.jpg */,
+				968CBAFA1FD6394D00069A3F /* StMartin.jpg */,
+				968CBAFD1FD6394D00069A3F /* Sydney.jpg */,
+				968CBAF81FD6394D00069A3F /* Tenerife.jpg */,
+				968CBAFB1FD6394D00069A3F /* Virgin.jpg */,
+				968CBAE41FD6393E00069A3F /* Ambergris.jpg */,
+				968CBADD1FD6393E00069A3F /* Bahamas.jpg */,
+				968CBAE11FD6393E00069A3F /* Bali.jpg */,
+				968CBADA1FD6393D00069A3F /* Chengdu.jpg */,
+				968CBAE21FD6393E00069A3F /* GrandCanyon.jpg */,
+				968CBADF1FD6393E00069A3F /* Kilua.jpg */,
+				968CBAE31FD6393E00069A3F /* KrugerPark.jpg */,
+				968CBAE71FD6393F00069A3F /* Machu.jpg */,
+				968CBAE61FD6393F00069A3F /* Rarotonga.jpg */,
+				968CBAE01FD6393E00069A3F /* Reef.jpg */,
+				968CBADE1FD6393E00069A3F /* SanJuan.jpg */,
+				968CBADC1FD6393E00069A3F /* Scott.jpg */,
+				968CBAE51FD6393F00069A3F /* VictoriaFalls.jpg */,
 			);
 			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		968CBAD41FD632E700069A3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				968CBAD51FD632E800069A3F /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -451,59 +472,57 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				968CBAC81FD6153500069A3F /* DeadSea.jpg in Resources */,
-				968CBAB31FD60E4000069A3F /* Maldives.jpg in Resources */,
+				968CBAE81FD6393F00069A3F /* Chengdu.jpg in Resources */,
+				968CBB2F1FD6396400069A3F /* Hawaii.jpg in Resources */,
+				968CBB051FD6394E00069A3F /* Maldives.jpg in Resources */,
+				968CBB311FD6396400069A3F /* Scottsdale.jpg in Resources */,
+				968CBB331FD6396400069A3F /* Phuket.jpg in Resources */,
 				962A80741FC5FDF500FE7E8F /* LaunchScreen.storyboard in Resources */,
-				968CBAC91FD6153500069A3F /* Budapest.jpg in Resources */,
-				968CBAC71FD6153500069A3F /* Phuket.jpg in Resources */,
-				962A80DD1FD4A26A00FE7E8F /* Orlando.jpg in Resources */,
-				962A80FA1FD4B4DF00FE7E8F /* Machu.jpg in Resources */,
-				962A80F41FD4B4DF00FE7E8F /* SanJuan.jpg in Resources */,
-				962A80EF1FD4B4DF00FE7E8F /* GrandCanyon.jpg in Resources */,
-				962A80FB1FD4B4DF00FE7E8F /* alpes.jpg in Resources */,
+				968CBB2D1FD6396400069A3F /* Tulum.jpg in Resources */,
+				968CBB191FD6395800069A3F /* Aruba.jpg in Resources */,
+				968CBAF01FD6393F00069A3F /* GrandCanyon.jpg in Resources */,
+				968CBAF51FD6393F00069A3F /* Machu.jpg in Resources */,
+				968CBB081FD6394E00069A3F /* StMartin.jpg in Resources */,
+				968CBB1B1FD6395800069A3F /* Dublin.jpg in Resources */,
+				968CBAED1FD6393F00069A3F /* Kilua.jpg in Resources */,
+				968CBB0E1FD6394E00069A3F /* Kauai.jpg in Resources */,
+				968CBB391FD6396400069A3F /* Marrakech.jpg in Resources */,
+				968CBB351FD6396400069A3F /* Costa.jpg in Resources */,
+				968CBB1E1FD6395800069A3F /* Barcelona.jpg in Resources */,
+				968CBB371FD6396400069A3F /* Negril.jpg in Resources */,
+				968CBAF31FD6393F00069A3F /* VictoriaFalls.jpg in Resources */,
+				968CBB091FD6394E00069A3F /* Virgin.jpg in Resources */,
+				968CBB1F1FD6395800069A3F /* playa.jpg in Resources */,
+				968CBB111FD6394E00069A3F /* santorini.jpg in Resources */,
+				968CBB321FD6396400069A3F /* Rotorua.jpg in Resources */,
+				968CBAEC1FD6393F00069A3F /* SanJuan.jpg in Resources */,
+				968CBB2E1FD6396400069A3F /* Fiji.jpg in Resources */,
+				968CBB0F1FD6394E00069A3F /* Cabo.jpg in Resources */,
+				968CBAEB1FD6393F00069A3F /* Bahamas.jpg in Resources */,
+				968CBB0B1FD6394E00069A3F /* Sydney.jpg in Resources */,
+				968CBAEF1FD6393F00069A3F /* Bali.jpg in Resources */,
+				968CBB381FD6396400069A3F /* Iceland.jpg in Resources */,
+				968CBB1C1FD6395800069A3F /* cancun.jpg in Resources */,
+				968CBB101FD6394E00069A3F /* Miami.jpg in Resources */,
+				968CBB041FD6394E00069A3F /* Cozumel.jpg in Resources */,
+				968CBB1D1FD6395800069A3F /* Anaheim.jpg in Resources */,
+				968CBAE91FD6393F00069A3F /* alpes.jpg in Resources */,
+				968CBB0C1FD6394E00069A3F /* Bora.jpg in Resources */,
+				968CBB361FD6396400069A3F /* DeadSea.jpg in Resources */,
+				968CBAF41FD6393F00069A3F /* Rarotonga.jpg in Resources */,
+				968CBB071FD6394E00069A3F /* Seychelles.jpg in Resources */,
+				968CBB0D1FD6394E00069A3F /* Ko.jpg in Resources */,
+				968CBAEA1FD6393F00069A3F /* Scott.jpg in Resources */,
+				968CBAEE1FD6393F00069A3F /* Reef.jpg in Resources */,
 				962A80711FC5FDF500FE7E8F /* Assets.xcassets in Resources */,
-				968CBAAF1FD60E4000069A3F /* Kauai.jpg in Resources */,
-				968CBA981FD56B3700069A3F /* images.bundle in Resources */,
-				968CBAA81FD60E4000069A3F /* Camps.jpg in Resources */,
-				962A80F61FD4B4DF00FE7E8F /* Bali.jpg in Resources */,
-				968CBAB01FD60E4000069A3F /* Bora.jpg in Resources */,
-				968CBACA1FD6153500069A3F /* Negril.jpg in Resources */,
-				968CBACC1FD6153500069A3F /* Scottsdale.jpg in Resources */,
-				962A80F11FD4B4DF00FE7E8F /* Chengdu.jpg in Resources */,
-				968CBAAD1FD60E4000069A3F /* Virgin.jpg in Resources */,
-				962A80F81FD4B4DF00FE7E8F /* Rarotonga.jpg in Resources */,
-				962A80DE1FD4A26A00FE7E8F /* Dublin.jpg in Resources */,
-				968CBAAC1FD60E4000069A3F /* StMartin.jpg in Resources */,
-				968CBAC61FD6153500069A3F /* Iceland.jpg in Resources */,
-				968CBAC51FD6153500069A3F /* Rotorua.jpg in Resources */,
-				962A80F51FD4B4DF00FE7E8F /* VictoriaFalls.jpg in Resources */,
-				962A80E01FD4A26A00FE7E8F /* Barcelona.jpg in Resources */,
-				968CBAAA1FD60E4000069A3F /* Miami.jpg in Resources */,
-				968CBAB41FD60E4000069A3F /* Sydney.jpg in Resources */,
-				962A80DB1FD4A26A00FE7E8F /* Dominican.jpg in Resources */,
-				968CBACE1FD6153500069A3F /* Taipei.jpg in Resources */,
-				962A80F21FD4B4DF00FE7E8F /* Kilua.jpg in Resources */,
-				962A80FC1FD4B4DF00FE7E8F /* Scott.jpg in Resources */,
-				962A80F91FD4B4DF00FE7E8F /* KrugerPark.jpg in Resources */,
-				968CBAC21FD6153500069A3F /* Marrakech.jpg in Resources */,
-				962A80F31FD4B4DF00FE7E8F /* Reef.jpg in Resources */,
-				962A80F01FD4B4DF00FE7E8F /* Ambergris.jpg in Resources */,
-				968CBAA71FD60E4000069A3F /* Cabo.jpg in Resources */,
-				968CBAAE1FD60E4000069A3F /* santorini.jpg in Resources */,
-				968CBAB11FD60E4000069A3F /* Tenerife.jpg in Resources */,
-				968CBACB1FD6153500069A3F /* Costa.jpg in Resources */,
+				968CBAF11FD6393F00069A3F /* KrugerPark.jpg in Resources */,
+				968CBB0A1FD6394E00069A3F /* Camps.jpg in Resources */,
+				968CBB301FD6396400069A3F /* Taipei.jpg in Resources */,
+				968CBB341FD6396400069A3F /* Budapest.jpg in Resources */,
+				968CBB061FD6394E00069A3F /* Tenerife.jpg in Resources */,
+				968CBAF21FD6393F00069A3F /* Ambergris.jpg in Resources */,
 				962A806F1FC5FDF500FE7E8F /* Main.storyboard in Resources */,
-				968CBACD1FD6153500069A3F /* Fiji.jpg in Resources */,
-				968CBAC31FD6153500069A3F /* Tulum.jpg in Resources */,
-				962A80F71FD4B4DF00FE7E8F /* Bahamas.jpg in Resources */,
-				962A80DA1FD4A26A00FE7E8F /* cancun.jpg in Resources */,
-				962A80D91FD4A26A00FE7E8F /* playa.jpg in Resources */,
-				968CBAC41FD6153500069A3F /* Hawaii.jpg in Resources */,
-				962A80DC1FD4A26A00FE7E8F /* Aruba.jpg in Resources */,
-				962A80DF1FD4A26A00FE7E8F /* Anaheim.jpg in Resources */,
-				968CBAB21FD60E4000069A3F /* Cozumel.jpg in Resources */,
-				968CBAA91FD60E4000069A3F /* Ko.jpg in Resources */,
-				968CBAAB1FD60E4000069A3F /* Seychelles.jpg in Resources */,
+				968CBB1A1FD6395800069A3F /* Dominican.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,10 +555,13 @@
 				962A80B01FD46FAF00FE7E8F /* Beaches.m in Sources */,
 				962A80AD1FD460D200FE7E8F /* Relaxation.m in Sources */,
 				962A80661FC5FDF500FE7E8F /* AppDelegate.m in Sources */,
+				968CBB3C1FD6499F00069A3F /* NotesTable.m in Sources */,
 				962A809E1FC9D13100FE7E8F /* AdventureTable.m in Sources */,
 				962A80BF1FD49CD500FE7E8F /* FamilyView.m in Sources */,
 				962A80A41FCAF23D00FE7E8F /* DataModel.m in Sources */,
-				968CBA951FD4D07200069A3F /* BeachView.m in Sources */,
+				968CBA951FD4D07200069A3F /*  BeachView.m in Sources */,
+				968CBB3F1FD659C700069A3F /* NoteView.m in Sources */,
+				968CBAD91FD6332000069A3F /* WebView.m in Sources */,
 				962A80771FC5FDF500FE7E8F /* main.m in Sources */,
 				962A80691FC5FDF500FE7E8F /* FirstViewController.m in Sources */,
 			);

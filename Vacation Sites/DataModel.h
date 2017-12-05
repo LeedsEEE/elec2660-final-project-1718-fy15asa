@@ -47,5 +47,8 @@
 @property (nonatomic,strong) NSMutableArray *spbeaches;
 @property (nonatomic,strong) NSMutableArray *afrbeaches;
 
+//Notes object
+@property (nonatomic,strong) NSMutableArray *Notes;
+
 
 @end

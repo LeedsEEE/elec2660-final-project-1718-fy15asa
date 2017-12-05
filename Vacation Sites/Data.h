@@ -15,8 +15,8 @@
 @property (nonatomic,strong) NSString *Description;
 @property (nonatomic,strong) NSString *Location;
 @property (nonatomic,strong) NSString *header;
-
-
+@property (nonatomic,strong) NSString *content;
+@property (nonatomic,strong) NSString *note;
 
 
 @end
