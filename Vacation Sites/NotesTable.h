@@ -9,9 +9,10 @@
 #import <UIKit/UIKit.h>
 #import "Data.h"
 #import "NoteView.h"
-@interface NotesTable : UITableViewController
+@interface NotesTable : UITableViewController 
 @property (nonatomic,strong) Data *data;
 - (IBAction)AddCell:(id)sender;
 @property (nonatomic,strong) NSMutableArray *Notes;
+
 
 @end

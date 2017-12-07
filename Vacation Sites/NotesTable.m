@@ -17,16 +17,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    
     self.Notes = [NSMutableArray array];
-    Data *Note1 = [[Data alloc]init];
-    Note1.note = @"Note";
-    Note1.content = @"Content";
-    [self.Notes addObject:Note1];
-
+    
+    
 
     
    
 }
+
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     [self.tableView reloadData];
@@ -57,10 +56,13 @@
     
     
     
+    
     return cell;
 }
 
-
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{
+    return @"All Notes";
+}
 /*
 // Override to support conditional editing of the table view.
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -74,11 +76,9 @@
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
     if (editingStyle == UITableViewCellEditingStyleDelete) {
         // Delete the row from the data source
+        [self.Notes removeObjectAtIndex:indexPath.row];
         [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        [tableView insertRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
+    }
 }
 
 
@@ -107,18 +107,20 @@
     Data *tempnote = [self.Notes objectAtIndex:indexpath.row];
     NoteView.data =tempnote;
     }
-   
+    
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
 }
 
 
 - (IBAction)AddCell:(id)sender {
-    NSLog(@"ssss");
-    NSLog(@"%@",self.tableView);
+    
     Data *note = [Data new];
+    note.note = @"Note";
+    note.content = @"Enter Text Here";
     [self.Notes addObject:note];
     [self.tableView reloadData];
     
 }
+
 @end

@@ -9,10 +9,12 @@
 #import <UIKit/UIKit.h>
 #import "Data.h"
 #import "NotesTable.h"
-@interface NoteView : UIViewController
+@interface NoteView : UIViewController 
+- (IBAction)Save:(id)sender;
 
 @property (nonatomic,strong) Data *data;
 @property (weak, nonatomic) IBOutlet UITextField *Title;
 @property (weak, nonatomic) IBOutlet UITextView *Note;
+
 
 @end

@@ -17,6 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    self.data.note= [defaults objectForKey:@"note"];
+    self.data.content = [defaults objectForKey:@"content"];
+    self.Title.text = self.data.note;
+    self.Note.text = self.data.content;
+    
     
 
 }
@@ -36,7 +42,8 @@
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
     self.data.note = self.Title.text;
-    NSLog(@"%@",self.data.note);
+    self.data.content = self.Note.text;
+    //NSLog(@"%@",self.data.note);
     
     
         
@@ -51,4 +58,13 @@
 }*/
 
 
+- (IBAction)Save:(id)sender {
+    // Create strings and integer to store the text info
+    self.data.note = [self.Title text];
+    self.data.content  = [self.Note text];
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    [defaults setObject:self.data.note forKey:@"note"];
+    [defaults setObject:self.data.content forKey:@"content"];
+    [defaults synchronize];
+}
 @end

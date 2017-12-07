@@ -17,6 +17,7 @@
 @property (nonatomic,strong) NSString *header;
 @property (nonatomic,strong) NSString *content;
 @property (nonatomic,strong) NSString *note;
+@property (nonatomic,strong) NSString *reminderTitle;
 
 
 @end
