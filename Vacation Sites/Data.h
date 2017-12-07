@@ -10,7 +10,7 @@
 
 @interface Data : NSObject
 
-
+//This is my Data class where a store all string objects that are going to be used to supply me with data or store data for me 
 @property (nonatomic,strong) NSString *Name;
 @property (nonatomic,strong) NSString *Description;
 @property (nonatomic,strong) NSString *Location;

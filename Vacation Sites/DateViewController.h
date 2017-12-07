@@ -7,12 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <UserNotifications/UserNotifications.h>
 #import "Data.h"
 @interface DateViewController : UIViewController <UITextFieldDelegate>
 @property (nonatomic,strong) Data *data;
-@property (strong, nonatomic)  UIDatePicker *DatePicker;
-@property (strong, nonatomic) IBOutlet UITextField *TextField;
+@property (nonatomic,strong) UNMutableNotificationContent *notification;
 
-@property (strong, nonatomic) IBOutlet UITextField *DateTextField;
+- (IBAction)setNotification:(id)sender;
+
+@property (strong, nonatomic)  UIDatePicker *DatePicker;
+@property (weak, nonatomic) IBOutlet UITextField *TextField;
+@property (weak, nonatomic) IBOutlet UITextField *DateTextField;
 
 @end

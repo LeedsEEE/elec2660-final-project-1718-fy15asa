@@ -12,7 +12,7 @@
 @interface AdventureTable : UITableViewController
 
 
-
+//Creating an Object from my DataModel class to access to the arrray
 @property (strong,nonatomic) DataModel *info;
 
 @end

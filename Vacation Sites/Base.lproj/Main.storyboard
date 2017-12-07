@@ -6,6 +6,8 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Baseline standard spacing" minToolsVersion="9.0"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -24,8 +26,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N0a-K8-4q3">
+                                <rect key="frame" x="220" y="439" width="134" height="80"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment>
+                                            <string key="content">Relaxation
+and
+Rejuvenation</string>
+                                            <attributes>
+                                                <font key="NSFont" size="18" name="Chalkduster"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <segue destination="wsf-5s-T2R" kind="show" id="3CD-ZZ-ew5"/>
+                                </connections>
+                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L2I-Pa-nNm">
-                                <rect key="frame" x="29" y="84" width="320" height="32"/>
+                                <rect key="frame" x="29" y="84" width="320" height="187.5"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Vacation Sites For you">
                                         <attributes>
@@ -50,43 +71,6 @@
                                 </state>
                                 <connections>
                                     <segue destination="a8m-DY-sHm" kind="show" id="VKS-Jb-Vnd"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N0a-K8-4q3">
-                                <rect key="frame" x="220" y="439" width="134" height="80"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment>
-                                            <string key="content">Relaxation
-and
-Rejuvenation</string>
-                                            <attributes>
-                                                <font key="NSFont" size="18" name="Chalkduster"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                                <connections>
-                                    <segue destination="wsf-5s-T2R" kind="show" id="3CD-ZZ-ew5"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qpX-Qp-g4c">
-                                <rect key="frame" x="20" y="542" width="69" height="58"/>
-                                <state key="normal" title="Family Fun">
-                                    <attributedString key="attributedTitle">
-                                        <fragment>
-                                            <string key="content">Family
-Fun</string>
-                                            <attributes>
-                                                <font key="NSFont" size="18" name="Chalkduster"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                                <connections>
-                                    <segue destination="NmY-gO-wh0" kind="show" id="GfK-0o-Nfg"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QRS-N0-xS6">
@@ -115,22 +99,44 @@ and sun</string>
                                     <segue destination="Qas-rb-KKB" kind="show" id="D8P-gD-jCb"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qpX-Qp-g4c">
+                                <rect key="frame" x="20" y="542" width="69" height="58"/>
+                                <state key="normal" title="Family Fun">
+                                    <attributedString key="attributedTitle">
+                                        <fragment>
+                                            <string key="content">Family
+Fun</string>
+                                            <attributes>
+                                                <font key="NSFont" size="18" name="Chalkduster"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <segue destination="NmY-gO-wh0" kind="show" id="GfK-0o-Nfg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.85253781080245972" green="0.87748128175735474" blue="0.88490068912506104" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="tN6-sr-MyM" firstAttribute="top" secondItem="N0a-K8-4q3" secondAttribute="bottom" constant="23" id="0CU-41-vVd"/>
-                            <constraint firstItem="QRS-N0-xS6" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="10" id="8qq-U0-OCW"/>
-                            <constraint firstItem="N0a-K8-4q3" firstAttribute="top" secondItem="QRS-N0-xS6" secondAttribute="bottom" constant="44" id="AXk-Ok-zIT"/>
-                            <constraint firstItem="L2I-Pa-nNm" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="29" id="E2S-fY-dg4"/>
-                            <constraint firstItem="QRS-N0-xS6" firstAttribute="centerY" secondItem="tsR-hK-woN" secondAttribute="centerY" id="M6g-zD-WsY"/>
-                            <constraint firstItem="pwr-3e-PMq" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="20" id="NMf-f0-txL"/>
-                            <constraint firstItem="N0a-K8-4q3" firstAttribute="centerX" secondItem="tN6-sr-MyM" secondAttribute="centerX" id="NNF-ks-mAv"/>
-                            <constraint firstItem="L2I-Pa-nNm" firstAttribute="top" secondItem="PQr-Ze-W5v" secondAttribute="top" constant="20" id="WhM-61-YV3"/>
-                            <constraint firstItem="N0a-K8-4q3" firstAttribute="leading" secondItem="pwr-3e-PMq" secondAttribute="trailing" constant="96" id="cbc-cU-sdM"/>
-                            <constraint firstItem="qpX-Qp-g4c" firstAttribute="baseline" secondItem="tN6-sr-MyM" secondAttribute="baseline" id="fyx-ut-Lco"/>
-                            <constraint firstItem="pwr-3e-PMq" firstAttribute="leading" secondItem="qpX-Qp-g4c" secondAttribute="leading" id="tQ7-UF-XnW"/>
-                            <constraint firstItem="QRS-N0-xS6" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="uHh-Ng-oNX"/>
-                            <constraint firstItem="pwr-3e-PMq" firstAttribute="centerY" secondItem="N0a-K8-4q3" secondAttribute="centerY" id="x2L-lr-S7F"/>
+                            <constraint firstItem="tN6-sr-MyM" firstAttribute="top" secondItem="N0a-K8-4q3" secondAttribute="bottom" constant="23" id="0SA-K9-fqB"/>
+                            <constraint firstItem="qpX-Qp-g4c" firstAttribute="baseline" secondItem="tN6-sr-MyM" secondAttribute="baseline" id="Aov-wO-t5S"/>
+                            <constraint firstItem="QRS-N0-xS6" firstAttribute="firstBaseline" secondItem="L2I-Pa-nNm" secondAttribute="baseline" constant="56" symbolType="layoutAnchor" id="Cca-3g-3OC"/>
+                            <constraint firstItem="N0a-K8-4q3" firstAttribute="leading" secondItem="pwr-3e-PMq" secondAttribute="trailing" constant="96" id="EIr-7R-6C8"/>
+                            <constraint firstItem="pwr-3e-PMq" firstAttribute="leading" secondItem="qpX-Qp-g4c" secondAttribute="leading" id="Enn-nX-bXw"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="N0a-K8-4q3" secondAttribute="trailing" constant="21" id="FH4-Vl-fHw"/>
+                            <constraint firstItem="QRS-N0-xS6" firstAttribute="centerY" secondItem="tsR-hK-woN" secondAttribute="centerY" id="IPX-Fb-hFF"/>
+                            <constraint firstItem="L2I-Pa-nNm" firstAttribute="top" secondItem="PQr-Ze-W5v" secondAttribute="top" constant="20" id="Nla-c0-Ieh"/>
+                            <constraint firstItem="QRS-N0-xS6" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="apr-Ox-Jng"/>
+                            <constraint firstItem="QRS-N0-xS6" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="10" id="hrg-Mr-Bew"/>
+                            <constraint firstItem="pwr-3e-PMq" firstAttribute="centerY" secondItem="N0a-K8-4q3" secondAttribute="centerY" id="huK-m4-pi2"/>
+                            <constraint firstItem="L2I-Pa-nNm" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="29" id="iJK-u5-6dr"/>
+                            <constraint firstItem="N0a-K8-4q3" firstAttribute="top" secondItem="QRS-N0-xS6" secondAttribute="bottom" constant="44" id="kzs-cR-5Ww"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="QRS-N0-xS6" secondAttribute="trailing" constant="10" id="mlx-wK-K2C"/>
+                            <constraint firstItem="pwr-3e-PMq" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="20" id="q1a-ib-Otc"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="L2I-Pa-nNm" secondAttribute="trailing" constant="26" id="ttq-fh-YvO"/>
+                            <constraint firstItem="N0a-K8-4q3" firstAttribute="centerX" secondItem="tN6-sr-MyM" secondAttribute="centerX" id="wgO-Va-mGX"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
@@ -442,17 +448,15 @@ and sun</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fZZ-7J-Jhr">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fZZ-7J-Jhr">
                                 <rect key="frame" x="9" y="545" width="151" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Book Accommodation"/>
                                 <connections>
                                     <segue destination="gwG-9G-SH1" kind="show" id="BQ5-w8-EwT"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0zE-Mk-tYp">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0zE-Mk-tYp">
                                 <rect key="frame" x="229" y="545" width="131" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Book Flight Tickets"/>
                                 <connections>
                                     <segue destination="trC-Vp-LwY" kind="show" id="Op5-NT-tjt"/>
@@ -465,11 +469,15 @@ and sun</string>
                             <constraint firstItem="s7Z-Ex-3cO" firstAttribute="trailing" secondItem="5Rw-Mq-Kbv" secondAttribute="trailing" id="5LX-yX-IJL"/>
                             <constraint firstItem="6Ee-X6-eIn" firstAttribute="leading" secondItem="LYo-oW-Yb9" secondAttribute="leading" constant="20" id="68p-BM-LNJ"/>
                             <constraint firstItem="42U-rF-MJs" firstAttribute="leading" secondItem="rpz-5q-vBl" secondAttribute="leadingMargin" id="7Kc-Pb-K5Z"/>
+                            <constraint firstItem="fZZ-7J-Jhr" firstAttribute="baseline" secondItem="0zE-Mk-tYp" secondAttribute="baseline" id="A3P-Ih-Rq1"/>
                             <constraint firstItem="s7Z-Ex-3cO" firstAttribute="centerX" secondItem="6Ee-X6-eIn" secondAttribute="centerX" id="Awi-Gb-Zud"/>
                             <constraint firstItem="6Ee-X6-eIn" firstAttribute="top" secondItem="5Rw-Mq-Kbv" secondAttribute="bottom" constant="19" id="H6U-Oi-Iu3"/>
+                            <constraint firstItem="fZZ-7J-Jhr" firstAttribute="top" secondItem="6Ee-X6-eIn" secondAttribute="bottom" constant="28" id="JL1-V4-G7P"/>
                             <constraint firstItem="LYo-oW-Yb9" firstAttribute="bottom" secondItem="6Ee-X6-eIn" secondAttribute="bottom" constant="101" id="Kp2-Dd-lKM"/>
                             <constraint firstItem="5Rw-Mq-Kbv" firstAttribute="top" secondItem="42U-rF-MJs" secondAttribute="bottom" constant="8" symbolic="YES" id="MiN-Ub-aet"/>
                             <constraint firstItem="s7Z-Ex-3cO" firstAttribute="leading" secondItem="rpz-5q-vBl" secondAttribute="leading" id="R1v-hZ-4qn"/>
+                            <constraint firstItem="fZZ-7J-Jhr" firstAttribute="leading" secondItem="LYo-oW-Yb9" secondAttribute="leading" constant="9" id="c7R-Al-71e"/>
+                            <constraint firstItem="0zE-Mk-tYp" firstAttribute="leading" secondItem="fZZ-7J-Jhr" secondAttribute="trailing" constant="69" id="eea-Wn-up5"/>
                             <constraint firstItem="42U-rF-MJs" firstAttribute="top" secondItem="s7Z-Ex-3cO" secondAttribute="bottom" constant="8" symbolic="YES" id="fcC-lR-4Jr"/>
                             <constraint firstAttribute="trailing" secondItem="s7Z-Ex-3cO" secondAttribute="trailing" id="lo3-Zk-Gfu"/>
                             <constraint firstItem="s7Z-Ex-3cO" firstAttribute="top" secondItem="LYo-oW-Yb9" secondAttribute="top" id="mKw-tP-Hfq"/>
@@ -922,27 +930,42 @@ and sun</string>
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vqY-L8-wOX">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Date and Time here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vqY-L8-wOX">
                                 <rect key="frame" x="16" y="163" width="343" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ciT-ai-rsq">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Your Reminder Here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ciT-ai-rsq">
                                 <rect key="frame" x="16" y="110" width="343" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MOK-RF-VSJ">
+                                <rect key="frame" x="134" y="259" width="106" height="30"/>
+                                <state key="normal" title="Set Notification"/>
+                                <connections>
+                                    <action selector="setNotification:" destination="yZK-iK-Mvn" eventType="touchUpInside" id="S3R-Yh-cn4"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ciT-ai-rsq" firstAttribute="leading" secondItem="uyc-cz-gjx" secondAttribute="leadingMargin" id="2Jd-Az-qXd"/>
+                            <constraint firstItem="ciT-ai-rsq" firstAttribute="trailing" secondItem="uyc-cz-gjx" secondAttribute="trailingMargin" id="39W-tx-Jv2"/>
+                            <constraint firstItem="ciT-ai-rsq" firstAttribute="top" secondItem="z7A-uz-Kev" secondAttribute="top" constant="46" id="Fhh-kx-8QG"/>
+                            <constraint firstItem="ciT-ai-rsq" firstAttribute="trailing" secondItem="vqY-L8-wOX" secondAttribute="trailing" id="KBM-zw-OfD"/>
+                            <constraint firstItem="ciT-ai-rsq" firstAttribute="leading" secondItem="vqY-L8-wOX" secondAttribute="leading" id="Syg-ig-PHU"/>
+                            <constraint firstItem="vqY-L8-wOX" firstAttribute="centerX" secondItem="MOK-RF-VSJ" secondAttribute="centerX" id="Xb4-LY-DTl"/>
+                            <constraint firstItem="vqY-L8-wOX" firstAttribute="top" secondItem="ciT-ai-rsq" secondAttribute="bottom" constant="23" id="tAO-42-joG"/>
+                            <constraint firstItem="MOK-RF-VSJ" firstAttribute="top" secondItem="vqY-L8-wOX" secondAttribute="bottom" constant="66" id="xV5-Aq-dus"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="z7A-uz-Kev"/>
                     </view>
                     <connections>
-                        <outlet property="DateTextField" destination="vqY-L8-wOX" id="JqA-TF-fy7"/>
-                        <outlet property="TextField" destination="ciT-ai-rsq" id="hGf-Yv-LyO"/>
+                        <outlet property="DateTextField" destination="vqY-L8-wOX" id="VFb-HK-7Ry"/>
+                        <outlet property="TextField" destination="ciT-ai-rsq" id="NTb-hh-juu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TSx-5n-Vg4" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1029,7 +1052,7 @@ and sun</string>
                                 <attributedString key="attributedText"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Title" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="D99-0c-Pzr">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Note Title" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="D99-0c-Pzr">
                                 <rect key="frame" x="16" y="91" width="343" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -1075,7 +1098,7 @@ and sun</string>
         <image name="first" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="4Gh-Gi-LMt"/>
-        <segue reference="kVb-Vv-e42"/>
+        <segue reference="XLu-QJ-4fJ"/>
+        <segue reference="XvA-md-YTT"/>
     </inferredMetricsTieBreakers>
 </document>

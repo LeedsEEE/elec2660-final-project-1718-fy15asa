@@ -14,13 +14,18 @@
 
 @implementation DateViewController
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     
+    self.TextField.delegate = self;
+    [self.TextField  setReturnKeyType:UIReturnKeyDone];
+    
     self.DatePicker = [[UIDatePicker alloc]init];
-    self.DatePicker.datePickerMode = UIDatePickerModeDate;
-     [self.DateTextField setInputView:self.DatePicker];
+    self.DatePicker.datePickerMode = UIDatePickerModeDateAndTime;
+    self.DatePicker.timeZone = [NSTimeZone defaultTimeZone];
+    [self.DateTextField setInputView:self.DatePicker];
     
     UIToolbar *toolbar = [[UIToolbar alloc]initWithFrame:CGRectMake(0, 0, 320, 44)];
     [toolbar setTintColor:[UIColor blueColor]];
@@ -29,31 +34,28 @@
     [toolbar setItems:[NSArray arrayWithObjects:doneButton, nil]];
     [self.DateTextField setInputAccessoryView:toolbar];
     
-   
-}
-
-
-
-
-
-
--(void) ShowSelectedDate{
-    NSDateFormatter *formatter = [[NSDateFormatter alloc]init];
     
-    [formatter setDateFormat:@"dd/MM/YYYY hh:mm a"];
-    self.DateTextField.text = [NSString stringWithFormat:@"%@",[formatter stringFromDate:self.DatePicker.date]];
-    [self.TextField resignFirstResponder];
+
+    
+    
     
 }
 
-
--(BOOL) textFieldShouldReturn:(UITextField *)textField{
+//This method was taken from stack oveflow to return after keydone is pressed
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
     [textField resignFirstResponder];
     return YES;
 }
 
 
 
+-(void) ShowSelectedDate{
+    NSDateFormatter *formatter = [[NSDateFormatter alloc]init];
+    [formatter setDateFormat:@"dd/MM/YYYY hh:mm a"];
+    self.DateTextField.text = [NSString stringWithFormat:@"%@",[formatter stringFromDate:self.DatePicker.date]];
+    [self.DateTextField resignFirstResponder];
+    
+}
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
@@ -70,22 +72,29 @@
     //NSLog(@"%@",self.data.note);
     
 }
+
+
+- (IBAction)setNotification:(id)sender {
+    _notification = [[UNMutableNotificationContent alloc]init];
+    //self.notification.body = [NSString stringWithFormat:(@"%@"),self.TextField.text];
+    self.notification.title =[NSString stringWithFormat:(@"%@"),self.TextField.text]; //[NSString localizedUserNotificationStringForKey:@"Time Down!" arguments:nil];
+    self.notification.sound = [UNNotificationSound defaultSound];
     
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
-
+    NSDate *chosenDate = [self.DatePicker date];
+    NSDateComponents *triggerDate = [[NSCalendar currentCalendar] components:NSCalendarUnitMonth | NSCalendarUnitDay | NSCalendarUnitHour | NSCalendarUnitMinute fromDate:chosenDate];
+    UNCalendarNotificationTrigger *trigger =[UNCalendarNotificationTrigger triggerWithDateMatchingComponents:triggerDate repeats:NO];
+    self.notification.badge = @([[UIApplication sharedApplication] applicationIconBadgeNumber] + 1);
+    UNNotificationRequest *request = [UNNotificationRequest requestWithIdentifier:@"Time Down"
+                                                                          content:self.notification trigger:trigger];
+    
+    UNUserNotificationCenter *center = [UNUserNotificationCenter currentNotificationCenter];
+    [center addNotificationRequest:request withCompletionHandler:^(NSError * _Nullable error) {
+        if (!error) {
+            NSLog(@"Add NotificationRequest succeeded!");
+        }
+    }];
+    
+   
+    
+     }
 @end

@@ -15,9 +15,10 @@
     if (self) {
         
         
-        //All data were taken from Trip Advisor website.
-        //Adventure Objects Start.
+        //All data were taken from Trip Advisor website. Including images.
+        //Filling all the arrays so we can display these data in our tables and viewcontrollers later
         
+        //Adventure Objects Start.
         #pragma mark Adventure Objects
         self.Caradventure = [NSMutableArray array];
         Data *sanjuan = [[Data alloc]init];
@@ -391,7 +392,7 @@
         
         
         
-        
+        //Adding all the objects to the array 
         [self.Caradventure addObject:sanjuan];
         [self.Caradventure addObject:Bahamas];
         [self.afradventure addObject:VictoriaFalls];
@@ -441,8 +442,6 @@
         [self.spbeaches addObject:Bora];
         [self.USbeaches addObject:Miami];
         [self.USbeaches addObject:Kauai];
-        
-      //Adventure End Total 14 objects.
         
         
     }

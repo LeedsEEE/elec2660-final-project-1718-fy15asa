@@ -9,10 +9,16 @@
 #import <UIKit/UIKit.h>
 #import "Data.h"
 #import "NotesTable.h"
-@interface NoteView : UIViewController 
+@interface NoteView : UIViewController
+
+
+
 - (IBAction)Save:(id)sender;
 
+
+//Creating an object from our Data class to access its string objects
 @property (nonatomic,strong) Data *data;
+//Outlets of the textfield and textview so we can store the data the user written in them in our array later
 @property (weak, nonatomic) IBOutlet UITextField *Title;
 @property (weak, nonatomic) IBOutlet UITextView *Note;
 

@@ -12,7 +12,6 @@
 		962414BD1FD8677100494C77 /* DateTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 962414BC1FD8677100494C77 /* DateTableViewController.m */; };
 		962A80661FC5FDF500FE7E8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 962A80651FC5FDF500FE7E8F /* AppDelegate.m */; };
 		962A80691FC5FDF500FE7E8F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 962A80681FC5FDF500FE7E8F /* FirstViewController.m */; };
-		962A806C1FC5FDF500FE7E8F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 962A806B1FC5FDF500FE7E8F /* SecondViewController.m */; };
 		962A806F1FC5FDF500FE7E8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 962A806D1FC5FDF500FE7E8F /* Main.storyboard */; };
 		962A80711FC5FDF500FE7E8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 962A80701FC5FDF500FE7E8F /* Assets.xcassets */; };
 		962A80741FC5FDF500FE7E8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 962A80721FC5FDF500FE7E8F /* LaunchScreen.storyboard */; };
@@ -27,9 +26,11 @@
 		962A80B01FD46FAF00FE7E8F /* Beaches.m in Sources */ = {isa = PBXBuildFile; fileRef = 962A80AF1FD46FAF00FE7E8F /* Beaches.m */; };
 		962A80BA1FD487CE00FE7E8F /* AdventureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 962A80B91FD487CE00FE7E8F /* AdventureView.m */; };
 		962A80BF1FD49CD500FE7E8F /* FamilyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 962A80BE1FD49CD500FE7E8F /* FamilyView.m */; };
+		965C29821FD9B90000AE04C9 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 965C29811FD9B8F300AE04C9 /* UserNotifications.framework */; };
+		965C29841FD9C42600AE04C9 /* Orlando.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 965C29831FD9C42600AE04C9 /* Orlando.jpg */; };
 		968CBA951FD4D07200069A3F /*  BeachView.m in Sources */ = {isa = PBXBuildFile; fileRef = 968CBA941FD4D07200069A3F /*  BeachView.m */; };
 		968CBAD11FD6169B00069A3F /* RelaxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 968CBAD01FD6169B00069A3F /* RelaxView.m */; };
-		968CBAD61FD632FE00069A3F /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968CBAD51FD632E800069A3F /* WebKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		968CBAD61FD632FE00069A3F /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968CBAD51FD632E800069A3F /* WebKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		968CBAE81FD6393F00069A3F /* Chengdu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBADA1FD6393D00069A3F /* Chengdu.jpg */; };
 		968CBAE91FD6393F00069A3F /* alpes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBADB1FD6393E00069A3F /* alpes.jpg */; };
 		968CBAEA1FD6393F00069A3F /* Scott.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968CBADC1FD6393E00069A3F /* Scott.jpg */; };
@@ -111,8 +112,6 @@
 		962A80651FC5FDF500FE7E8F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		962A80671FC5FDF500FE7E8F /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		962A80681FC5FDF500FE7E8F /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		962A806A1FC5FDF500FE7E8F /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		962A806B1FC5FDF500FE7E8F /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		962A806E1FC5FDF500FE7E8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		962A80701FC5FDF500FE7E8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		962A80731FC5FDF500FE7E8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -140,6 +139,8 @@
 		962A80B91FD487CE00FE7E8F /* AdventureView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdventureView.m; sourceTree = "<group>"; };
 		962A80BD1FD49CD500FE7E8F /* FamilyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FamilyView.h; sourceTree = "<group>"; };
 		962A80BE1FD49CD500FE7E8F /* FamilyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FamilyView.m; sourceTree = "<group>"; };
+		965C29811FD9B8F300AE04C9 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		965C29831FD9C42600AE04C9 /* Orlando.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Orlando.jpg; path = Images/FamilyFun/Orlando.jpg; sourceTree = SOURCE_ROOT; };
 		968CBA931FD4D07200069A3F /* BeachView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeachView.h; sourceTree = "<group>"; };
 		968CBA941FD4D07200069A3F /*  BeachView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = " BeachView.m"; sourceTree = "<group>"; };
 		968CBACF1FD6169B00069A3F /* RelaxView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RelaxView.h; sourceTree = "<group>"; };
@@ -204,6 +205,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				965C29821FD9B90000AE04C9 /* UserNotifications.framework in Frameworks */,
 				968CBAD61FD632FE00069A3F /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,8 +267,6 @@
 				962A80651FC5FDF500FE7E8F /* AppDelegate.m */,
 				962A80671FC5FDF500FE7E8F /* FirstViewController.h */,
 				962A80681FC5FDF500FE7E8F /* FirstViewController.m */,
-				962A806A1FC5FDF500FE7E8F /* SecondViewController.h */,
-				962A806B1FC5FDF500FE7E8F /* SecondViewController.m */,
 				962A806D1FC5FDF500FE7E8F /* Main.storyboard */,
 				962414BB1FD8677100494C77 /* DateTableViewController.h */,
 				962414BC1FD8677100494C77 /* DateTableViewController.m */,
@@ -331,6 +331,7 @@
 				968CBB251FD6396300069A3F /* Rotorua.jpg */,
 				968CBB241FD6396300069A3F /* Scottsdale.jpg */,
 				968CBB231FD6396300069A3F /* Taipei.jpg */,
+				965C29831FD9C42600AE04C9 /* Orlando.jpg */,
 				968CBB201FD6396300069A3F /* Tulum.jpg */,
 				968CBB171FD6395800069A3F /* Barcelona.jpg */,
 				968CBB151FD6395800069A3F /* cancun.jpg */,
@@ -371,6 +372,7 @@
 		968CBAD41FD632E700069A3F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				965C29811FD9B8F300AE04C9 /* UserNotifications.framework */,
 				968CBAD51FD632E800069A3F /* WebKit.framework */,
 			);
 			name = Frameworks;
@@ -511,6 +513,7 @@
 				968CBAEB1FD6393F00069A3F /* Bahamas.jpg in Resources */,
 				968CBB0B1FD6394E00069A3F /* Sydney.jpg in Resources */,
 				968CBAEF1FD6393F00069A3F /* Bali.jpg in Resources */,
+				965C29841FD9C42600AE04C9 /* Orlando.jpg in Resources */,
 				968CBB381FD6396400069A3F /* Iceland.jpg in Resources */,
 				968CBB1C1FD6395800069A3F /* cancun.jpg in Resources */,
 				968CBB101FD6394E00069A3F /* Miami.jpg in Resources */,
@@ -563,7 +566,6 @@
 				962414BD1FD8677100494C77 /* DateTableViewController.m in Sources */,
 				962A80AA1FD32EFA00FE7E8F /* FamilyFun.m in Sources */,
 				962414BA1FD85BA500494C77 /* DateViewController.m in Sources */,
-				962A806C1FC5FDF500FE7E8F /* SecondViewController.m in Sources */,
 				962A80B01FD46FAF00FE7E8F /* Beaches.m in Sources */,
 				962A80AD1FD460D200FE7E8F /* Relaxation.m in Sources */,
 				962A80661FC5FDF500FE7E8F /* AppDelegate.m in Sources */,

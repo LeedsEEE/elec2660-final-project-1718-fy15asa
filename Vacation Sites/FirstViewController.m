@@ -16,29 +16,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    //Setting the number of lines of the buttons so it displays all the words
     self.relax.titleLabel.numberOfLines = 3;
     self.beach.titleLabel.numberOfLines = 3;
     self.family.titleLabel.numberOfLines = 2;
     
-    
-    /*self.Booking.delegate = self;
-    NSString *url = @"http://www.booking.com";
-    NSURL *URL = [NSURL URLWithString:url];
-    NSURLRequest *requestURL = [NSURLRequest requestWithURL:URL];
-    [self.Booking loadRequest:requestURL];
-     
-    // Do any additional setup after loading the view, typically from a nib.*/
 }
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-
-
-
-
 
 @end

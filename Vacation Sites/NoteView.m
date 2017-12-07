@@ -16,46 +16,39 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    //kkk
+    /*NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     self.data.note= [defaults objectForKey:@"note"];
     self.data.content = [defaults objectForKey:@"content"];
-    self.Title.text = self.data.note;
-    self.Note.text = self.data.content;
+    //self.Title.text = self.data.note;
+    self.Note.text = self.data.content;*/
     
     
 
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+//This method will trigger when the view controller is about to appear so its useful for us to write whatever we want happening before the user enters the view controller
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    
+ //Setting the textfield in the view controller to the note string object which is already set to Notes from our table and the text view to content which is set to Enter your text here
  self.Title.text = self.data.note;
  self.Note.text = self.data.content;
     
 }
 
+//This method will trigger when the View Controller is about to dissappear (user presses back or closes app)
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
+    //Setting the note and content string objects in the array to whatever the user wrote in the textfield and the textview so we can store them for later
     self.data.note = self.Title.text;
     self.data.content = self.Note.text;
-    //NSLog(@"%@",self.data.note);
+    NSLog(@"%@",self.data.note); //This line is for debugging purposes
     
     
         
     }
 #pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-/*- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}*/
 
 
 - (IBAction)Save:(id)sender {

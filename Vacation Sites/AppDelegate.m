@@ -7,16 +7,24 @@
 //
 
 #import "AppDelegate.h"
-
+#import <UserNotifications/UserNotifications.h>
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
 
-
+//Was taken from http://www.spotlessicode.com/blog/posts/ios10-usernotification-framework-unnotification-tutorial-obj-c
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    if ([application respondsToSelector:@selector(isRegisteredForRemoteNotifications)])
+    {
+        UNUserNotificationCenter* center = [UNUserNotificationCenter currentNotificationCenter];
+        [center requestAuthorizationWithOptions:(UNAuthorizationOptionAlert + UNAuthorizationOptionSound + UNAuthorizationOptionBadge)
+                              completionHandler:^(BOOL granted, NSError * _Nullable error) {
+                                  // Enable or disable features based on authorization.
+                              }];
+    }
+    application.applicationIconBadgeNumber = 0;
     return YES;
 }
 
