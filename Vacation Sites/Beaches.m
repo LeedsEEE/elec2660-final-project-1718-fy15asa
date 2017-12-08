@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    //Initilaising the allocating the array in this class
+    //Initilasing and allocating the DataModel object
     self.info = [[DataModel alloc]init];
 }
 

@@ -12,6 +12,7 @@
 
 @interface Relaxation : UITableViewController
 
+//Creating a DataModel object to access the array
 @property (strong,nonatomic) DataModel *info;
 
 @end

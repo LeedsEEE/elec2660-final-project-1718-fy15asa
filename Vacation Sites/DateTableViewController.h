@@ -11,8 +11,14 @@
 #import "DateViewController.h"
 @interface DateTableViewController : UITableViewController
 
+
+//Creating an object of our Data class to access its strings
 @property (nonatomic,strong) Data *data;
+
+//Action button to add a reminder
 - (IBAction)addReminder:(id)sender;
+
+//Array to store reminders from the user
 @property (nonatomic,strong) NSMutableArray *Reminders;
 
 @end

@@ -10,7 +10,7 @@
 #import "DataModel.h"
 #import "FamilyView.h"
 @interface FamilyFun : UITableViewController
-
+//Creating a DataModel object to access our array
 @property (strong,nonatomic) DataModel *info;
 
 @end

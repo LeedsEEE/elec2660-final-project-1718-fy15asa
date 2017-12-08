@@ -16,15 +16,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    //kkk
-    /*NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    self.data.note= [defaults objectForKey:@"note"];
-    self.data.content = [defaults objectForKey:@"content"];
-    //self.Title.text = self.data.note;
-    self.Note.text = self.data.content;*/
-    
-    
-
+    //Setting the textfield delegate to itself
+    self.Title.delegate = self;
+    //Allowing the user to hide the keyboard when finished typing using donekey
+    [self.Title  setReturnKeyType:UIReturnKeyDone];
+}
+//This method was taken from stack overflow
+//hides the textfield when the user press done
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    [textField resignFirstResponder];
+    return YES;
 }
 
 //This method will trigger when the view controller is about to appear so its useful for us to write whatever we want happening before the user enters the view controller
@@ -47,17 +48,5 @@
     
         
     }
-#pragma mark - Navigation
 
-
-
-- (IBAction)Save:(id)sender {
-    // Create strings and integer to store the text info
-    self.data.note = [self.Title text];
-    self.data.content  = [self.Note text];
-    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    [defaults setObject:self.data.note forKey:@"note"];
-    [defaults setObject:self.data.content forKey:@"content"];
-    [defaults synchronize];
-}
 @end

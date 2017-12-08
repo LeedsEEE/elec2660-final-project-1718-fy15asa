@@ -9,11 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "Data.h"
 #import "NotesTable.h"
-@interface NoteView : UIViewController
-
-
-
-- (IBAction)Save:(id)sender;
+@interface NoteView : UIViewController <UITextFieldDelegate> //Adding textfielddelegate to access its delegate method
 
 
 //Creating an object from our Data class to access its string objects

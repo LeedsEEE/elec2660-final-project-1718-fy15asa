@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    //Initilasing and allocating the array in this class
+    //Initilasing and allocating the DataModel object
    self.info = [[DataModel alloc]init];
 }
 
@@ -144,7 +144,7 @@
      }
          
          
-         // the rest follows the same procedure with different sections
+     // the rest follows the same procedure with different sections
      else if (indexpath.section == 1){
          Data *tempadv = [self.info.afradventure objectAtIndex:indexpath.row];
          destinationViewController.data =tempadv;

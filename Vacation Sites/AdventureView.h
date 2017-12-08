@@ -10,9 +10,14 @@
 #import "Data.h"
 @interface AdventureView : UIViewController
 
-@property (strong, nonatomic) IBOutlet UILabel *Location;
+//Creating a Data class object to access its properties
+@property (nonatomic,strong) Data *data;
+
+//Image outlet
 @property (strong, nonatomic) IBOutlet UIImageView *img;
+
+//Label outlets
 @property (strong, nonatomic) IBOutlet UILabel *Name;
+@property (strong, nonatomic) IBOutlet UILabel *Location;
 @property (strong, nonatomic) IBOutlet UILabel *Description;
-@property (strong,nonatomic) Data *data;
 @end
